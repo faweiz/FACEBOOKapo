@@ -1,0 +1,1286 @@
+Component: ARM Compiler 5.06 update 3 (build 300) Tool: armlink [4d35c9]
+
+==============================================================================
+
+Section Cross References
+
+    dfu-cc.pb.o(.constdata) refers to dfu-cc.pb.o(.constdata) for dfu_hash_fields
+    dfu-cc.pb.o(.constdata) refers to dfu-cc.pb.o(.constdata) for dfu_init_command_is_debug_default
+    dfu-cc.pb.o(.constdata) refers to dfu-cc.pb.o(.constdata) for dfu_init_command_fields
+    dfu-cc.pb.o(.constdata) refers to dfu-cc.pb.o(.constdata) for dfu_reset_command_fields
+    dfu-cc.pb.o(.constdata) refers to dfu-cc.pb.o(.constdata) for dfu_command_fields
+    dfu-cc.pb.o(.constdata) refers to dfu-cc.pb.o(.constdata) for dfu_command_fields
+    dfu-cc.pb.o(.constdata) refers to dfu-cc.pb.o(.constdata) for dfu_signed_command_fields
+    dfu_req_handling.o(i.dfu_data_write_handler) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.dfu_decode_commmand) refers to pb_decode.o(i.pb_istream_from_buffer) for pb_istream_from_buffer
+    dfu_req_handling.o(i.dfu_decode_commmand) refers to pb_decode.o(i.pb_decode) for pb_decode
+    dfu_req_handling.o(i.dfu_decode_commmand) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    dfu_req_handling.o(i.dfu_decode_commmand) refers to dfu_req_handling.o(.bss) for .bss
+    dfu_req_handling.o(i.dfu_decode_commmand) refers to dfu_req_handling.o(i.pb_decoding_callback) for pb_decoding_callback
+    dfu_req_handling.o(i.dfu_decode_commmand) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.dfu_decode_commmand) refers to dfu-cc.pb.o(.constdata) for dfu_packet_fields
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to nrf_crypto.o(i.nrf_crypto_hash_compute) for nrf_crypto_hash_compute
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to memcpya.o(.text) for __aeabi_memcpy
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to nrf_crypto.o(i.nrf_crypto_verify) for nrf_crypto_verify
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to nrf_dfu_utils.o(i.nrf_dfu_find_cache) for nrf_dfu_find_cache
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to dfu_req_handling.o(.bss) for .bss
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.dfu_handle_prevalidate) refers to dfu_req_handling.o(.constdata) for .constdata
+    dfu_req_handling.o(i.nrf_delay_us) refers to system_nrf52.o(.data) for SystemCoreClock
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to memseta.o(.text) for __aeabi_memclr4
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to memcpya.o(.text) for __aeabi_memcpy
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to crc32.o(i.crc32_compute) for crc32_compute
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to dfu_req_handling.o(i.dfu_decode_commmand) for dfu_decode_commmand
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to dfu_req_handling.o(i.dfu_handle_prevalidate) for dfu_handle_prevalidate
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.nrf_dfu_command_req) refers to dfu_req_handling.o(.bss) for .bss
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to nrf_dfu_flash.o(i.nrf_dfu_flash_erase) for nrf_dfu_flash_erase
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to crc32.o(i.crc32_compute) for crc32_compute
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to memcpya.o(.text) for __aeabi_memcpy
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to nrf_dfu_flash.o(i.nrf_dfu_flash_store) for nrf_dfu_flash_store
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to nrf_dfu.o(i.nrf_dfu_wait) for nrf_dfu_wait
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to dfu_req_handling.o(i.nrf_dfu_postvalidate) for nrf_dfu_postvalidate
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to dfu_req_handling.o(i.dfu_data_write_handler) for dfu_data_write_handler
+    dfu_req_handling.o(i.nrf_dfu_data_req) refers to dfu_req_handling.o(.bss) for .bss
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to nrf_crypto.o(i.nrf_crypto_hash_compute) for nrf_crypto_hash_compute
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to memcmp.o(.text) for memcmp
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to memseta.o(.text) for __aeabi_memclr4
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to dfu_req_handling.o(i.nrf_delay_us) for nrf_delay_us
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to nrf_dfu.o(i.nrf_dfu_wait) for nrf_dfu_wait
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to dfu_req_handling.o(.bss) for .bss
+    dfu_req_handling.o(i.nrf_dfu_postvalidate) refers to dfu_req_handling.o(i.on_dfu_complete) for on_dfu_complete
+    dfu_req_handling.o(i.nrf_dfu_req_handler_init) refers to nrf_dfu_flash.o(i.nrf_dfu_flash_init) for nrf_dfu_flash_init
+    dfu_req_handling.o(i.nrf_dfu_req_handler_init) refers to dfu_req_handling.o(i.dfu_decode_commmand) for dfu_decode_commmand
+    dfu_req_handling.o(i.nrf_dfu_req_handler_init) refers to nrf_dfu_utils.o(i.nrf_dfu_find_cache) for nrf_dfu_find_cache
+    dfu_req_handling.o(i.nrf_dfu_req_handler_init) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.nrf_dfu_req_handler_init) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    dfu_req_handling.o(i.nrf_dfu_req_handler_on_req) refers to dfu_req_handling.o(i.nrf_dfu_command_req) for nrf_dfu_command_req
+    dfu_req_handling.o(i.nrf_dfu_req_handler_on_req) refers to dfu_req_handling.o(i.nrf_dfu_data_req) for nrf_dfu_data_req
+    dfu_req_handling.o(i.nrf_dfu_req_handler_on_req) refers to dfu_req_handling.o(.data) for .data
+    dfu_req_handling.o(i.on_dfu_complete) refers to nrf_dfu_transport.o(i.nrf_dfu_transports_close) for nrf_dfu_transports_close
+    dfu_req_handling.o(i.pb_decoding_callback) refers to dfu-cc.pb.o(.constdata) for dfu_init_command_fields
+    dfu_req_handling.o(i.pb_decoding_callback) refers to dfu_req_handling.o(.data) for .data
+    main.o(i.app_error_fault_handler) refers to main.o(i.NVIC_SystemReset) for NVIC_SystemReset
+    main.o(i.app_error_handler_bare) refers to main.o(i.NVIC_SystemReset) for NVIC_SystemReset
+    main.o(i.main) refers to main.o(i.nrf_gpio_cfg) for nrf_gpio_cfg
+    main.o(i.main) refers to nrf_bootloader.o(i.nrf_bootloader_init) for nrf_bootloader_init
+    main.o(i.main) refers to main.o(i.NVIC_SystemReset) for NVIC_SystemReset
+    main.o(i.main) refers to nrf_bootloader_app_start.o(i.nrf_bootloader_app_start) for nrf_bootloader_app_start
+    ble_advdata.o(i.adv_data_encode) refers to ble_advdata.o(i.ble_device_addr_encode) for ble_device_addr_encode
+    ble_advdata.o(i.adv_data_encode) refers to ble_advdata.o(i.uint16_encode) for uint16_encode
+    ble_advdata.o(i.adv_data_encode) refers to ble_advdata.o(i.uuid_list_encode) for uuid_list_encode
+    ble_advdata.o(i.adv_data_encode) refers to ble_advdata.o(i.conn_int_encode) for conn_int_encode
+    ble_advdata.o(i.adv_data_encode) refers to ble_advdata.o(i.manuf_specific_data_encode) for manuf_specific_data_encode
+    ble_advdata.o(i.adv_data_encode) refers to ble_advdata.o(i.service_data_encode) for service_data_encode
+    ble_advdata.o(i.adv_data_encode) refers to ble_advdata.o(i.name_encode) for name_encode
+    ble_advdata.o(i.ble_advdata_set) refers to ble_advdata.o(i.adv_data_encode) for adv_data_encode
+    ble_advdata.o(i.conn_int_encode) refers to ble_advdata.o(i.uint16_encode) for uint16_encode
+    ble_advdata.o(i.manuf_specific_data_encode) refers to ble_advdata.o(i.uint16_encode) for uint16_encode
+    ble_advdata.o(i.manuf_specific_data_encode) refers to memcpya.o(.text) for __aeabi_memcpy
+    ble_advdata.o(i.service_data_encode) refers to ble_advdata.o(i.uint16_encode) for uint16_encode
+    ble_advdata.o(i.service_data_encode) refers to memcpya.o(.text) for __aeabi_memcpy
+    ble_advdata.o(i.uuid_list_encode) refers to ble_advdata.o(i.uuid_list_sized_encode) for uuid_list_sized_encode
+    ble_conn_params.o(i.ble_conn_params_change_conn_params) refers to ble_conn_params.o(i.is_conn_params_ok) for is_conn_params_ok
+    ble_conn_params.o(i.ble_conn_params_change_conn_params) refers to ble_conn_params.o(.data) for .data
+    ble_conn_params.o(i.ble_conn_params_change_conn_params) refers to ble_conn_params.o(.bss) for .bss
+    ble_conn_params.o(i.ble_conn_params_init) refers to memcpya.o(.text) for __aeabi_memcpy4
+    ble_conn_params.o(i.ble_conn_params_init) refers to app_timer.o(i.app_timer_create) for app_timer_create
+    ble_conn_params.o(i.ble_conn_params_init) refers to ble_conn_params.o(.bss) for .bss
+    ble_conn_params.o(i.ble_conn_params_init) refers to ble_conn_params.o(.data) for .data
+    ble_conn_params.o(i.ble_conn_params_init) refers to ble_conn_params.o(i.update_timeout_handler) for update_timeout_handler
+    ble_conn_params.o(i.ble_conn_params_init) refers to ble_conn_params.o(.constdata) for .constdata
+    ble_conn_params.o(i.ble_conn_params_on_ble_evt) refers to ble_srv_common.o(i.ble_srv_is_notification_enabled) for ble_srv_is_notification_enabled
+    ble_conn_params.o(i.ble_conn_params_on_ble_evt) refers to ble_conn_params.o(i.conn_params_negotiation) for conn_params_negotiation
+    ble_conn_params.o(i.ble_conn_params_on_ble_evt) refers to app_timer.o(i.app_timer_stop) for app_timer_stop
+    ble_conn_params.o(i.ble_conn_params_on_ble_evt) refers to ble_conn_params.o(.data) for .data
+    ble_conn_params.o(i.ble_conn_params_on_ble_evt) refers to ble_conn_params.o(.bss) for .bss
+    ble_conn_params.o(i.ble_conn_params_on_ble_evt) refers to ble_conn_params.o(.constdata) for .constdata
+    ble_conn_params.o(i.ble_conn_params_stop) refers to app_timer.o(i.app_timer_stop) for app_timer_stop
+    ble_conn_params.o(i.ble_conn_params_stop) refers to ble_conn_params.o(.constdata) for .constdata
+    ble_conn_params.o(i.conn_params_negotiation) refers to ble_conn_params.o(i.is_conn_params_ok) for is_conn_params_ok
+    ble_conn_params.o(i.conn_params_negotiation) refers to app_timer.o(i.app_timer_start) for app_timer_start
+    ble_conn_params.o(i.conn_params_negotiation) refers to ble_conn_params.o(.data) for .data
+    ble_conn_params.o(i.conn_params_negotiation) refers to ble_conn_params.o(.bss) for .bss
+    ble_conn_params.o(i.conn_params_negotiation) refers to ble_conn_params.o(.constdata) for .constdata
+    ble_conn_params.o(i.is_conn_params_ok) refers to ble_conn_params.o(.data) for .data
+    ble_conn_params.o(i.update_timeout_handler) refers to ble_conn_params.o(.data) for .data
+    ble_conn_params.o(i.update_timeout_handler) refers to ble_conn_params.o(.bss) for .bss
+    ble_conn_params.o(.constdata) refers to ble_conn_params.o(.bss) for m_conn_params_timer_id_data
+    ble_srv_common.o(i.ble_srv_ascii_to_utf8) refers to strlen.o(.text) for strlen
+    ble_srv_common.o(i.characteristic_add) refers to ble_srv_common.o(i.set_security_req) for set_security_req
+    ble_srv_common.o(i.characteristic_add) refers to memseta.o(.text) for __aeabi_memclr4
+    ble_srv_common.o(i.descriptor_add) refers to memseta.o(.text) for __aeabi_memclr4
+    ble_srv_common.o(i.descriptor_add) refers to ble_srv_common.o(i.set_security_req) for set_security_req
+    nrf_ble_dfu.o(i.advertising_start) refers to memseta.o(.text) for __aeabi_memclr4
+    nrf_ble_dfu.o(i.advertising_start) refers to ble_advdata.o(i.ble_advdata_set) for ble_advdata_set
+    nrf_ble_dfu.o(i.advertising_start) refers to nrf_ble_dfu.o(i.nrf_gpio_pin_set) for nrf_gpio_pin_set
+    nrf_ble_dfu.o(i.advertising_start) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.ble_dfu_init) refers to nrf_ble_dfu.o(i.dfu_pkt_char_add) for dfu_pkt_char_add
+    nrf_ble_dfu.o(i.ble_dfu_init) refers to nrf_ble_dfu.o(i.dfu_ctrl_pt_add) for dfu_ctrl_pt_add
+    nrf_ble_dfu.o(i.ble_dfu_init) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.ble_dfu_init) refers to nrf_ble_dfu.o(.constdata) for .constdata
+    nrf_ble_dfu.o(i.ble_dfu_transport_close) refers to nrf_ble_dfu.o(i.nrf_delay_us) for nrf_delay_us
+    nrf_ble_dfu.o(i.ble_dfu_transport_close) refers to nrf_ble_dfu.o(i.nrf_gpio_pin_set) for nrf_gpio_pin_set
+    nrf_ble_dfu.o(i.ble_dfu_transport_close) refers to ble_conn_params.o(i.ble_conn_params_stop) for ble_conn_params_stop
+    nrf_ble_dfu.o(i.ble_dfu_transport_close) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(i.nrf_gpio_cfg_output) for nrf_gpio_cfg_output
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(i.nrf_gpio_pin_set) for nrf_gpio_pin_set
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_dfu_mbr.o(i.nrf_dfu_mbr_init_sd) for nrf_dfu_mbr_init_sd
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to softdevice_handler.o(i.softdevice_handler_init) for softdevice_handler_init
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to softdevice_handler.o(i.softdevice_enable_get_default_config) for softdevice_enable_get_default_config
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to softdevice_handler.o(i.softdevice_enable) for softdevice_enable
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to softdevice_handler.o(i.softdevice_ble_evt_handler_set) for softdevice_ble_evt_handler_set
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(i.gap_params_init) for gap_params_init
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(i.ble_dfu_init) for ble_dfu_init
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to memseta.o(.text) for __aeabi_memclr4
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to ble_conn_params.o(i.ble_conn_params_init) for ble_conn_params_init
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(i.advertising_start) for advertising_start
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(.constdata) for .constdata
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to softdevice_handler_appsh.o(i.softdevice_evt_schedule) for softdevice_evt_schedule
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(.bss) for .bss
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(i.ble_evt_dispatch) for ble_evt_dispatch
+    nrf_ble_dfu.o(i.ble_dfu_transport_init) refers to nrf_ble_dfu.o(i.conn_params_error_handler) for conn_params_error_handler
+    nrf_ble_dfu.o(i.ble_evt_dispatch) refers to ble_conn_params.o(i.ble_conn_params_on_ble_evt) for ble_conn_params_on_ble_evt
+    nrf_ble_dfu.o(i.ble_evt_dispatch) refers to nrf_ble_dfu.o(i.on_ble_evt) for on_ble_evt
+    nrf_ble_dfu.o(i.conn_params_error_handler) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    nrf_ble_dfu.o(i.dfu_ctrl_pt_add) refers to memseta.o(.text) for __aeabi_memclr4
+    nrf_ble_dfu.o(i.dfu_pkt_char_add) refers to memseta.o(.text) for __aeabi_memclr4
+    nrf_ble_dfu.o(i.nrf_delay_us) refers to system_nrf52.o(.data) for SystemCoreClock
+    nrf_ble_dfu.o(i.on_ble_evt) refers to nrf_ble_dfu.o(i.nrf_gpio_pin_set) for nrf_gpio_pin_set
+    nrf_ble_dfu.o(i.on_ble_evt) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    nrf_ble_dfu.o(i.on_ble_evt) refers to nrf_ble_dfu.o(i.advertising_start) for advertising_start
+    nrf_ble_dfu.o(i.on_ble_evt) refers to nrf_ble_dfu.o(i.on_rw_authorize_req) for on_rw_authorize_req
+    nrf_ble_dfu.o(i.on_ble_evt) refers to nrf_ble_dfu.o(i.on_ctrl_pt_write) for on_ctrl_pt_write
+    nrf_ble_dfu.o(i.on_ble_evt) refers to nrf_ble_dfu.o(i.on_write) for on_write
+    nrf_ble_dfu.o(i.on_ble_evt) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.on_ble_evt) refers to nrf_ble_dfu.o(.bss) for .bss
+    nrf_ble_dfu.o(i.on_ctrl_pt_write) refers to dfu_req_handling.o(i.nrf_dfu_req_handler_on_req) for nrf_dfu_req_handler_on_req
+    nrf_ble_dfu.o(i.on_ctrl_pt_write) refers to nrf_ble_dfu.o(i.response_crc_cmd_send) for response_crc_cmd_send
+    nrf_ble_dfu.o(i.on_ctrl_pt_write) refers to nrf_ble_dfu.o(i.response_send) for response_send
+    nrf_ble_dfu.o(i.on_ctrl_pt_write) refers to nrf_ble_dfu.o(i.response_select_object_cmd_send) for response_select_object_cmd_send
+    nrf_ble_dfu.o(i.on_ctrl_pt_write) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.on_rw_authorize_req) refers to ble_srv_common.o(i.ble_srv_is_notification_enabled) for ble_srv_is_notification_enabled
+    nrf_ble_dfu.o(i.on_rw_authorize_req) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.on_write) refers to dfu_req_handling.o(i.nrf_dfu_req_handler_on_req) for nrf_dfu_req_handler_on_req
+    nrf_ble_dfu.o(i.on_write) refers to nrf_ble_dfu.o(i.response_crc_cmd_send) for response_crc_cmd_send
+    nrf_ble_dfu.o(i.on_write) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.response_crc_cmd_send) refers to nrf_ble_dfu.o(i.uint32_encode) for uint32_encode
+    nrf_ble_dfu.o(i.response_crc_cmd_send) refers to nrf_ble_dfu.o(i.send_hvx) for send_hvx
+    nrf_ble_dfu.o(i.response_crc_cmd_send) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.response_crc_cmd_send) refers to nrf_ble_dfu.o(.bss) for .bss
+    nrf_ble_dfu.o(i.response_select_object_cmd_send) refers to nrf_ble_dfu.o(i.uint32_encode) for uint32_encode
+    nrf_ble_dfu.o(i.response_select_object_cmd_send) refers to nrf_ble_dfu.o(i.send_hvx) for send_hvx
+    nrf_ble_dfu.o(i.response_select_object_cmd_send) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.response_select_object_cmd_send) refers to nrf_ble_dfu.o(.bss) for .bss
+    nrf_ble_dfu.o(i.response_send) refers to nrf_ble_dfu.o(i.send_hvx) for send_hvx
+    nrf_ble_dfu.o(i.response_send) refers to nrf_ble_dfu.o(.data) for .data
+    nrf_ble_dfu.o(i.response_send) refers to nrf_ble_dfu.o(.bss) for .bss
+    nrf_ble_dfu.o(i.send_hvx) refers to nrf_ble_dfu.o(.bss) for .bss
+    nrf_ble_dfu.o(dfu_trans) refers to nrf_ble_dfu.o(i.ble_dfu_transport_init) for ble_dfu_transport_init
+    nrf_ble_dfu.o(dfu_trans) refers to nrf_ble_dfu.o(i.ble_dfu_transport_close) for ble_dfu_transport_close
+    nrf_bootloader.o(i.nrf_bootloader_init) refers to nrf_dfu.o(i.nrf_dfu_init) for nrf_dfu_init
+    nrf_bootloader_app_start.o(i.nrf_bootloader_app_start) refers to nrf_dfu_mbr.o(i.nrf_dfu_mbr_init_sd) for nrf_dfu_mbr_init_sd
+    nrf_bootloader_app_start.o(i.nrf_bootloader_app_start) refers to nrf_bootloader_app_start.o(.emb_text) for __asm___26_nrf_bootloader_app_start_c_5c9f33f9__nrf_bootloader_app_start_impl
+    nrf_dfu.o(i.nrf_dfu_enter_check) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    nrf_dfu.o(i.nrf_dfu_enter_check) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu.o(i.nrf_dfu_init) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_init) for nrf_dfu_settings_init
+    nrf_dfu.o(i.nrf_dfu_init) refers to nrf_dfu_utils.o(i.nrf_dfu_continue) for nrf_dfu_continue
+    nrf_dfu.o(i.nrf_dfu_init) refers to nrf_dfu.o(i.nrf_dfu_enter_check) for nrf_dfu_enter_check
+    nrf_dfu.o(i.nrf_dfu_init) refers to nrf_dfu_utils.o(i.nrf_dfu_app_is_valid) for nrf_dfu_app_is_valid
+    nrf_dfu.o(i.nrf_dfu_init) refers to nrf_bootloader_app_start.o(i.nrf_bootloader_app_start) for nrf_bootloader_app_start
+    nrf_dfu.o(i.nrf_dfu_init) refers to app_timer.o(i.app_timer_init) for app_timer_init
+    nrf_dfu.o(i.nrf_dfu_init) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    nrf_dfu.o(i.nrf_dfu_init) refers to app_scheduler.o(i.app_sched_init) for app_sched_init
+    nrf_dfu.o(i.nrf_dfu_init) refers to nrf_dfu_transport.o(i.nrf_dfu_transports_init) for nrf_dfu_transports_init
+    nrf_dfu.o(i.nrf_dfu_init) refers to dfu_req_handling.o(i.nrf_dfu_req_handler_init) for nrf_dfu_req_handler_init
+    nrf_dfu.o(i.nrf_dfu_init) refers to app_scheduler.o(i.app_sched_execute) for app_sched_execute
+    nrf_dfu.o(i.nrf_dfu_init) refers to app_timer_appsh.o(i.app_timer_evt_schedule) for app_timer_evt_schedule
+    nrf_dfu.o(i.nrf_dfu_init) refers to nrf_dfu.o(.bss) for .bss
+    nrf_dfu.o(i.nrf_dfu_wait) refers to app_scheduler.o(i.app_sched_execute) for app_sched_execute
+    nrf_dfu_flash.o(i.fs_evt_handler) refers to nrf_dfu_flash.o(.data) for .data
+    nrf_dfu_flash.o(i.nrf_dfu_flash_erase) refers to fstorage.o(i.fs_erase) for fs_erase
+    nrf_dfu_flash.o(i.nrf_dfu_flash_erase) refers to nrf_nvmc.o(i.nrf_nvmc_page_erase) for nrf_nvmc_page_erase
+    nrf_dfu_flash.o(i.nrf_dfu_flash_erase) refers to nrf_dfu_flash.o(.data) for .data
+    nrf_dfu_flash.o(i.nrf_dfu_flash_erase) refers to nrf_dfu_flash.o(fs_data) for fs_data
+    nrf_dfu_flash.o(i.nrf_dfu_flash_erase) refers to nrf_dfu_flash.o(.constdata) for .constdata
+    nrf_dfu_flash.o(i.nrf_dfu_flash_error_clear) refers to nrf_dfu_flash.o(.data) for .data
+    nrf_dfu_flash.o(i.nrf_dfu_flash_init) refers to fstorage.o(i.fs_fake_init) for fs_fake_init
+    nrf_dfu_flash.o(i.nrf_dfu_flash_init) refers to softdevice_handler.o(i.softdevice_sys_evt_handler_set) for softdevice_sys_evt_handler_set
+    nrf_dfu_flash.o(i.nrf_dfu_flash_init) refers to nrf_dfu_flash.o(.data) for .data
+    nrf_dfu_flash.o(i.nrf_dfu_flash_init) refers to fstorage.o(i.fs_sys_event_handler) for fs_sys_event_handler
+    nrf_dfu_flash.o(i.nrf_dfu_flash_store) refers to fstorage.o(i.fs_store) for fs_store
+    nrf_dfu_flash.o(i.nrf_dfu_flash_store) refers to nrf_nvmc.o(i.nrf_nvmc_write_words) for nrf_nvmc_write_words
+    nrf_dfu_flash.o(i.nrf_dfu_flash_store) refers to nrf_dfu_flash.o(.data) for .data
+    nrf_dfu_flash.o(i.nrf_dfu_flash_store) refers to nrf_dfu_flash.o(fs_data) for fs_data
+    nrf_dfu_flash.o(i.nrf_dfu_flash_wait) refers to nrf_dfu_flash.o(.data) for .data
+    nrf_dfu_flash.o(fs_data) refers to nrf_dfu_flash.o(i.fs_evt_handler) for fs_evt_handler
+    nrf_dfu_mbr.o(i.nrf_dfu_mbr_compare) refers to nrf_dfu_mbr.o(.constdata) for .constdata
+    nrf_dfu_mbr.o(i.nrf_dfu_mbr_copy_sd) refers to nrf_dfu_mbr.o(.constdata) for .constdata
+    nrf_dfu_mbr.o(i.nrf_dfu_mbr_init_sd) refers to nrf_dfu_mbr.o(.constdata) for .constdata
+    nrf_dfu_mbr.o(i.nrf_dfu_mbr_vector_table_set) refers to nrf_dfu_mbr.o(.constdata) for .constdata
+    nrf_dfu_settings.o(i.dfu_settings_write_callback) refers to nrf_dfu_settings.o(.data) for .data
+    nrf_dfu_settings.o(i.nrf_dfu_settings_calculate_crc) refers to crc32.o(i.crc32_compute) for crc32_compute
+    nrf_dfu_settings.o(i.nrf_dfu_settings_calculate_crc) refers to nrf_dfu_settings.o(.bss) for .bss
+    nrf_dfu_settings.o(i.nrf_dfu_settings_init) refers to memcpya.o(.text) for __aeabi_memcpy
+    nrf_dfu_settings.o(i.nrf_dfu_settings_init) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_calculate_crc) for nrf_dfu_settings_calculate_crc
+    nrf_dfu_settings.o(i.nrf_dfu_settings_init) refers to memseta.o(.text) for __aeabi_memclr4
+    nrf_dfu_settings.o(i.nrf_dfu_settings_init) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    nrf_dfu_settings.o(i.nrf_dfu_settings_init) refers to nrf_dfu_settings.o(.data) for .data
+    nrf_dfu_settings.o(i.nrf_dfu_settings_init) refers to nrf_dfu_settings.o(.ARM.__AT_0x0007F000) for .ARM.__AT_0x0007F000
+    nrf_dfu_settings.o(i.nrf_dfu_settings_init) refers to nrf_dfu_settings.o(.bss) for .bss
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to nrf_dfu_flash.o(i.nrf_dfu_flash_erase) for nrf_dfu_flash_erase
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_calculate_crc) for nrf_dfu_settings_calculate_crc
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to memcpya.o(.text) for __aeabi_memcpy4
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to nrf_dfu_flash.o(i.nrf_dfu_flash_store) for nrf_dfu_flash_store
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to nrf_dfu_settings.o(.data) for .data
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to nrf_dfu_settings.o(.ARM.__AT_0x0007F000) for .ARM.__AT_0x0007F000
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to nrf_dfu_settings.o(.bss) for .bss
+    nrf_dfu_settings.o(i.nrf_dfu_settings_write) refers to nrf_dfu_settings.o(i.dfu_settings_write_callback) for dfu_settings_write_callback
+    nrf_dfu_utils.o(i.nrf_dfu_app_continue) refers to nrf_dfu_flash.o(i.nrf_dfu_flash_erase) for nrf_dfu_flash_erase
+    nrf_dfu_utils.o(i.nrf_dfu_app_continue) refers to nrf_dfu_flash.o(i.nrf_dfu_flash_store) for nrf_dfu_flash_store
+    nrf_dfu_utils.o(i.nrf_dfu_app_continue) refers to nrf_dfu_mbr.o(i.nrf_dfu_mbr_compare) for nrf_dfu_mbr_compare
+    nrf_dfu_utils.o(i.nrf_dfu_app_continue) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    nrf_dfu_utils.o(i.nrf_dfu_app_continue) refers to crc32.o(i.crc32_compute) for crc32_compute
+    nrf_dfu_utils.o(i.nrf_dfu_app_continue) refers to nrf_dfu_utils.o(i.nrf_dfu_invalidate_bank) for nrf_dfu_invalidate_bank
+    nrf_dfu_utils.o(i.nrf_dfu_app_continue) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu_utils.o(i.nrf_dfu_app_is_valid) refers to crc32.o(i.crc32_compute) for crc32_compute
+    nrf_dfu_utils.o(i.nrf_dfu_app_is_valid) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu_utils.o(i.nrf_dfu_bl_continue) refers to nrf_dfu_mbr.o(i.nrf_dfu_mbr_compare) for nrf_dfu_mbr_compare
+    nrf_dfu_utils.o(i.nrf_dfu_bl_continue) refers to nrf_dfu_mbr.o(i.nrf_dfu_mbr_copy_bl) for nrf_dfu_mbr_copy_bl
+    nrf_dfu_utils.o(i.nrf_dfu_bl_continue) refers to nrf_dfu_utils.o(i.nrf_dfu_invalidate_bank) for nrf_dfu_invalidate_bank
+    nrf_dfu_utils.o(i.nrf_dfu_bl_continue) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    nrf_dfu_utils.o(i.nrf_dfu_bl_continue) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu_utils.o(i.nrf_dfu_continue) refers to nrf_dfu_utils.o(i.nrf_dfu_continue_bank) for nrf_dfu_continue_bank
+    nrf_dfu_utils.o(i.nrf_dfu_continue) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu_utils.o(i.nrf_dfu_continue_bank) refers to nrf_dfu_utils.o(i.nrf_dfu_sd_continue_impl) for nrf_dfu_sd_continue_impl
+    nrf_dfu_utils.o(i.nrf_dfu_continue_bank) refers to nrf_dfu_utils.o(i.nrf_dfu_app_continue) for nrf_dfu_app_continue
+    nrf_dfu_utils.o(i.nrf_dfu_continue_bank) refers to nrf_dfu_utils.o(i.nrf_dfu_invalidate_bank) for nrf_dfu_invalidate_bank
+    nrf_dfu_utils.o(i.nrf_dfu_continue_bank) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    nrf_dfu_utils.o(i.nrf_dfu_continue_bank) refers to nrf_dfu_utils.o(i.nrf_dfu_bl_continue) for nrf_dfu_bl_continue
+    nrf_dfu_utils.o(i.nrf_dfu_continue_bank) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu_utils.o(i.nrf_dfu_find_cache) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu_utils.o(i.nrf_dfu_invalidate_bank) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_dfu_utils.o(i.nrf_dfu_sd_continue_impl) refers to nrf_dfu_mbr.o(i.nrf_dfu_mbr_copy_sd) for nrf_dfu_mbr_copy_sd
+    nrf_dfu_utils.o(i.nrf_dfu_sd_continue_impl) refers to nrf_dfu_mbr.o(i.nrf_dfu_mbr_compare) for nrf_dfu_mbr_compare
+    nrf_dfu_utils.o(i.nrf_dfu_sd_continue_impl) refers to nrf_dfu_settings.o(i.nrf_dfu_settings_write) for nrf_dfu_settings_write
+    nrf_dfu_utils.o(i.nrf_dfu_sd_continue_impl) refers to nrf_dfu_settings.o(.bss) for s_dfu_settings
+    nrf_drv_rng.o(i.nrf_drv_rng_block_rand) refers to nrf_drv_rng.o(i.nrf_drv_rng_rand) for nrf_drv_rng_rand
+    nrf_drv_rng.o(i.nrf_drv_rng_init) refers to nrf_drv_rng.o(.data) for .data
+    nrf_drv_rng.o(i.nrf_drv_rng_uninit) refers to nrf_drv_rng.o(.data) for .data
+    nrf_nvmc.o(i.nrf_nvmc_write_bytes) refers to nrf_nvmc.o(i.nrf_nvmc_write_byte) for nrf_nvmc_write_byte
+    app_fifo.o(i.app_fifo_get) refers to app_fifo.o(i.fifo_get) for fifo_get
+    app_fifo.o(i.app_fifo_put) refers to app_fifo.o(i.fifo_put) for fifo_put
+    app_fifo.o(i.app_fifo_read) refers to app_fifo.o(i.fifo_get) for fifo_get
+    app_fifo.o(i.app_fifo_write) refers to app_fifo.o(i.fifo_put) for fifo_put
+    app_scheduler.o(i.app_sched_event_put) refers to app_util_platform.o(i.app_util_critical_region_enter) for app_util_critical_region_enter
+    app_scheduler.o(i.app_sched_event_put) refers to app_util_platform.o(i.app_util_critical_region_exit) for app_util_critical_region_exit
+    app_scheduler.o(i.app_sched_event_put) refers to memcpya.o(.text) for __aeabi_memcpy
+    app_scheduler.o(i.app_sched_event_put) refers to app_scheduler.o(.data) for .data
+    app_scheduler.o(i.app_sched_execute) refers to app_scheduler.o(.data) for .data
+    app_scheduler.o(i.app_sched_init) refers to app_scheduler.o(.data) for .data
+    app_scheduler.o(i.app_sched_queue_space_get) refers to app_scheduler.o(.data) for .data
+    app_timer.o(i.RTC1_IRQHandler) refers to app_timer.o(i.timer_timeouts_check) for timer_timeouts_check
+    app_timer.o(i.SWI0_EGU0_IRQHandler) refers to app_timer.o(i.timer_list_handler) for timer_list_handler
+    app_timer.o(i.app_timer_create) refers to app_timer.o(.data) for .data
+    app_timer.o(i.app_timer_init) refers to app_timer.o(i.rtc1_stop) for rtc1_stop
+    app_timer.o(i.app_timer_init) refers to app_timer.o(i.NVIC_ClearPendingIRQ) for NVIC_ClearPendingIRQ
+    app_timer.o(i.app_timer_init) refers to app_timer.o(i.NVIC_SetPriority) for NVIC_SetPriority
+    app_timer.o(i.app_timer_init) refers to app_timer.o(i.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    app_timer.o(i.app_timer_init) refers to app_timer.o(.data) for .data
+    app_timer.o(i.app_timer_start) refers to app_util_platform.o(i.app_util_critical_region_enter) for app_util_critical_region_enter
+    app_timer.o(i.app_timer_start) refers to app_timer.o(i.user_op_alloc) for user_op_alloc
+    app_timer.o(i.app_timer_start) refers to app_util_platform.o(i.app_util_critical_region_exit) for app_util_critical_region_exit
+    app_timer.o(i.app_timer_start) refers to app_timer.o(i.NVIC_SetPendingIRQ) for NVIC_SetPendingIRQ
+    app_timer.o(i.app_timer_start) refers to app_timer.o(.data) for .data
+    app_timer.o(i.app_timer_stop) refers to app_timer.o(i.timer_stop_op_schedule) for timer_stop_op_schedule
+    app_timer.o(i.app_timer_stop) refers to app_timer.o(.data) for .data
+    app_timer.o(i.app_timer_stop_all) refers to app_timer.o(i.timer_stop_op_schedule) for timer_stop_op_schedule
+    app_timer.o(i.app_timer_stop_all) refers to app_timer.o(.data) for .data
+    app_timer.o(i.compare_reg_update) refers to app_timer.o(i.NVIC_ClearPendingIRQ) for NVIC_ClearPendingIRQ
+    app_timer.o(i.compare_reg_update) refers to app_timer.o(i.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    app_timer.o(i.compare_reg_update) refers to app_timer.o(i.nrf_delay_us) for nrf_delay_us
+    app_timer.o(i.compare_reg_update) refers to app_timer.o(i.NVIC_SetPendingIRQ) for NVIC_SetPendingIRQ
+    app_timer.o(i.compare_reg_update) refers to app_timer.o(i.rtc1_stop) for rtc1_stop
+    app_timer.o(i.compare_reg_update) refers to app_timer.o(.data) for .data
+    app_timer.o(i.elapsed_ticks_acquire) refers to app_timer.o(.data) for .data
+    app_timer.o(i.list_deletions_handler) refers to app_timer.o(.data) for .data
+    app_timer.o(i.list_insertions_handler) refers to app_timer.o(i.timer_list_insert) for timer_list_insert
+    app_timer.o(i.list_insertions_handler) refers to app_timer.o(.data) for .data
+    app_timer.o(i.nrf_delay_us) refers to system_nrf52.o(.data) for SystemCoreClock
+    app_timer.o(i.rtc1_stop) refers to app_timer.o(i.nrf_delay_us) for nrf_delay_us
+    app_timer.o(i.rtc1_stop) refers to app_timer.o(.data) for .data
+    app_timer.o(i.timer_list_handler) refers to app_timer.o(i.elapsed_ticks_acquire) for elapsed_ticks_acquire
+    app_timer.o(i.timer_list_handler) refers to app_timer.o(i.list_deletions_handler) for list_deletions_handler
+    app_timer.o(i.timer_list_handler) refers to app_timer.o(i.list_insertions_handler) for list_insertions_handler
+    app_timer.o(i.timer_list_handler) refers to app_timer.o(i.compare_reg_update) for compare_reg_update
+    app_timer.o(i.timer_list_handler) refers to app_timer.o(.data) for .data
+    app_timer.o(i.timer_list_insert) refers to app_timer.o(.data) for .data
+    app_timer.o(i.timer_stop_op_schedule) refers to app_util_platform.o(i.app_util_critical_region_enter) for app_util_critical_region_enter
+    app_timer.o(i.timer_stop_op_schedule) refers to app_timer.o(i.user_op_alloc) for user_op_alloc
+    app_timer.o(i.timer_stop_op_schedule) refers to app_util_platform.o(i.app_util_critical_region_exit) for app_util_critical_region_exit
+    app_timer.o(i.timer_stop_op_schedule) refers to app_timer.o(i.NVIC_SetPendingIRQ) for NVIC_SetPendingIRQ
+    app_timer.o(i.timer_stop_op_schedule) refers to app_timer.o(.data) for .data
+    app_timer.o(i.timer_timeouts_check) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    app_timer.o(i.timer_timeouts_check) refers to app_timer.o(i.NVIC_SetPendingIRQ) for NVIC_SetPendingIRQ
+    app_timer.o(i.timer_timeouts_check) refers to app_timer.o(.data) for .data
+    app_timer.o(i.user_op_alloc) refers to app_timer.o(.data) for .data
+    app_timer_appsh.o(i.app_timer_evt_get) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    app_timer_appsh.o(i.app_timer_evt_schedule) refers to app_scheduler.o(i.app_sched_event_put) for app_sched_event_put
+    app_timer_appsh.o(i.app_timer_evt_schedule) refers to app_timer_appsh.o(i.app_timer_evt_get) for app_timer_evt_get
+    app_util_platform.o(i.app_util_critical_region_enter) refers to app_util_platform.o(.bss) for .bss
+    app_util_platform.o(i.app_util_critical_region_exit) refers to app_util_platform.o(.bss) for .bss
+    app_util_platform.o(i.app_util_disable_irq) refers to app_util_platform.o(.data) for .data
+    app_util_platform.o(i.app_util_enable_irq) refers to app_util_platform.o(.data) for .data
+    ecc.o(i.ecc_init) refers to micro_ecc_lib_uECC.c.o(.text.uECC_set_rng) for uECC_set_rng
+    ecc.o(i.ecc_init) refers to ecc.o(i.ecc_rng) for ecc_rng
+    ecc.o(i.ecc_p256_keypair_gen) refers to ecc.o(i.is_word_aligned) for is_word_aligned
+    ecc.o(i.ecc_p256_keypair_gen) refers to micro_ecc_lib_uECC.c.o(.text.uECC_secp256r1) for uECC_secp256r1
+    ecc.o(i.ecc_p256_keypair_gen) refers to micro_ecc_lib_uECC.c.o(.text.uECC_make_key) for uECC_make_key
+    ecc.o(i.ecc_p256_public_key_compute) refers to ecc.o(i.is_word_aligned) for is_word_aligned
+    ecc.o(i.ecc_p256_public_key_compute) refers to micro_ecc_lib_uECC.c.o(.text.uECC_secp256r1) for uECC_secp256r1
+    ecc.o(i.ecc_p256_public_key_compute) refers to micro_ecc_lib_uECC.c.o(.text.uECC_compute_public_key) for uECC_compute_public_key
+    ecc.o(i.ecc_p256_shared_secret_compute) refers to ecc.o(i.is_word_aligned) for is_word_aligned
+    ecc.o(i.ecc_p256_shared_secret_compute) refers to micro_ecc_lib_uECC.c.o(.text.uECC_secp256r1) for uECC_secp256r1
+    ecc.o(i.ecc_p256_shared_secret_compute) refers to micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret) for uECC_shared_secret
+    ecc.o(i.ecc_p256_sign) refers to ecc.o(i.is_word_aligned) for is_word_aligned
+    ecc.o(i.ecc_p256_sign) refers to micro_ecc_lib_uECC.c.o(.text.uECC_secp256r1) for uECC_secp256r1
+    ecc.o(i.ecc_p256_sign) refers to micro_ecc_lib_uECC.c.o(.text.uECC_sign) for uECC_sign
+    ecc.o(i.ecc_p256_verify) refers to ecc.o(i.is_word_aligned) for is_word_aligned
+    ecc.o(i.ecc_p256_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_secp256r1) for uECC_secp256r1
+    ecc.o(i.ecc_p256_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_verify) for uECC_verify
+    ecc.o(i.ecc_rng) refers to nrf_drv_rng.o(i.nrf_drv_rng_block_rand) for nrf_drv_rng_block_rand
+    fstorage.o(i.fs_erase) refers to fstorage.o(i.check_config) for check_config
+    fstorage.o(i.fs_erase) refers to fstorage.o(i.queue_get_next_free) for queue_get_next_free
+    fstorage.o(i.fs_erase) refers to fstorage.o(i.queue_start) for queue_start
+    fstorage.o(i.fs_erase) refers to fstorage.o(.data) for .data
+    fstorage.o(i.fs_fake_init) refers to fstorage.o(.data) for .data
+    fstorage.o(i.fs_init) refers to fstorage.o(.data) for .data
+    fstorage.o(i.fs_queued_op_count_get) refers to fstorage.o(.bss) for .bss
+    fstorage.o(i.fs_store) refers to fstorage.o(i.check_config) for check_config
+    fstorage.o(i.fs_store) refers to fstorage.o(i.queue_get_next_free) for queue_get_next_free
+    fstorage.o(i.fs_store) refers to fstorage.o(i.queue_start) for queue_start
+    fstorage.o(i.fs_store) refers to fstorage.o(.data) for .data
+    fstorage.o(i.fs_sys_event_handler) refers to fstorage.o(i.on_operation_success) for on_operation_success
+    fstorage.o(i.fs_sys_event_handler) refers to fstorage.o(i.send_event) for send_event
+    fstorage.o(i.fs_sys_event_handler) refers to fstorage.o(i.queue_advance) for queue_advance
+    fstorage.o(i.fs_sys_event_handler) refers to fstorage.o(i.queue_process) for queue_process
+    fstorage.o(i.fs_sys_event_handler) refers to fstorage.o(.bss) for .bss
+    fstorage.o(i.fs_sys_event_handler) refers to fstorage.o(.data) for .data
+    fstorage.o(i.on_operation_success) refers to fstorage.o(i.send_event) for send_event
+    fstorage.o(i.on_operation_success) refers to fstorage.o(i.queue_advance) for queue_advance
+    fstorage.o(i.on_operation_success) refers to fstorage.o(.data) for .data
+    fstorage.o(i.queue_advance) refers to fstorage.o(.bss) for .bss
+    fstorage.o(i.queue_advance) refers to fstorage.o(.data) for .data
+    fstorage.o(i.queue_get_next_free) refers to memseta.o(.text) for __aeabi_memclr4
+    fstorage.o(i.queue_get_next_free) refers to fstorage.o(.bss) for .bss
+    fstorage.o(i.queue_process) refers to fstorage.o(i.send_event) for send_event
+    fstorage.o(i.queue_process) refers to fstorage.o(.bss) for .bss
+    fstorage.o(i.queue_process) refers to fstorage.o(.data) for .data
+    fstorage.o(i.queue_start) refers to fstorage.o(i.queue_process) for queue_process
+    fstorage.o(i.queue_start) refers to fstorage.o(.data) for .data
+    hci_mem_pool.o(i.hci_mem_pool_open) refers to hci_mem_pool.o(.data) for .data
+    hci_mem_pool.o(i.hci_mem_pool_open) refers to hci_mem_pool.o(.bss) for .bss
+    hci_mem_pool.o(i.hci_mem_pool_rx_consume) refers to hci_mem_pool.o(.bss) for .bss
+    hci_mem_pool.o(i.hci_mem_pool_rx_data_size_set) refers to hci_mem_pool.o(.bss) for .bss
+    hci_mem_pool.o(i.hci_mem_pool_rx_extract) refers to hci_mem_pool.o(.bss) for .bss
+    hci_mem_pool.o(i.hci_mem_pool_rx_produce) refers to hci_mem_pool.o(.bss) for .bss
+    hci_mem_pool.o(i.hci_mem_pool_tx_alloc) refers to hci_mem_pool.o(.data) for .data
+    hci_mem_pool.o(i.hci_mem_pool_tx_alloc) refers to hci_mem_pool.o(.bss) for .bss
+    hci_mem_pool.o(i.hci_mem_pool_tx_free) refers to hci_mem_pool.o(.data) for .data
+    nrf_assert.o(i.assert_nrf_callback) refers to main.o(i.app_error_fault_handler) for app_error_fault_handler
+    nrf_crypto.o(i.nrf_crypto_hash_compute) refers to sha256.o(i.sha256_init) for sha256_init
+    nrf_crypto.o(i.nrf_crypto_hash_compute) refers to sha256.o(i.sha256_update) for sha256_update
+    nrf_crypto.o(i.nrf_crypto_hash_compute) refers to sha256.o(i.sha256_final) for sha256_final
+    nrf_crypto.o(i.nrf_crypto_init) refers to ecc.o(i.ecc_init) for ecc_init
+    nrf_crypto.o(i.nrf_crypto_public_key_compute) refers to ecc.o(i.ecc_p256_public_key_compute) for ecc_p256_public_key_compute
+    nrf_crypto.o(i.nrf_crypto_shared_secret_compute) refers to ecc.o(i.ecc_p256_shared_secret_compute) for ecc_p256_shared_secret_compute
+    nrf_crypto.o(i.nrf_crypto_sign) refers to ecc.o(i.ecc_p256_sign) for ecc_p256_sign
+    nrf_crypto.o(i.nrf_crypto_verify) refers to ecc.o(i.ecc_p256_verify) for ecc_p256_verify
+    sha256.o(i.sha256_final) refers to sha256.o(i.sha256_transform) for sha256_transform
+    sha256.o(i.sha256_final) refers to memseta.o(.text) for __aeabi_memclr4
+    sha256.o(i.sha256_transform) refers to sha256.o(.constdata) for .constdata
+    sha256.o(i.sha256_update) refers to sha256.o(i.sha256_transform) for sha256_transform
+    softdevice_handler.o(i.SWI2_EGU2_IRQHandler) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    softdevice_handler.o(i.SWI2_EGU2_IRQHandler) refers to softdevice_handler.o(i.intern_softdevice_events_execute) for intern_softdevice_events_execute
+    softdevice_handler.o(i.SWI2_EGU2_IRQHandler) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.intern_softdevice_events_execute) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    softdevice_handler.o(i.intern_softdevice_events_execute) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.sd_nvic_EnableIRQ) refers to softdevice_handler.o(i.__sd_nvic_app_accessible_irq) for __sd_nvic_app_accessible_irq
+    softdevice_handler.o(i.sd_nvic_EnableIRQ) refers to app_util_platform.o(.bss) for nrf_nvic_state
+    softdevice_handler.o(i.softdevice_ble_evt_handler_set) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.softdevice_enable_get_default_config) refers to memseta.o(.text) for __aeabi_memclr4
+    softdevice_handler.o(i.softdevice_fault_handler) refers to main.o(i.app_error_fault_handler) for app_error_fault_handler
+    softdevice_handler.o(i.softdevice_handler_init) refers to softdevice_handler.o(i.sd_nvic_EnableIRQ) for sd_nvic_EnableIRQ
+    softdevice_handler.o(i.softdevice_handler_init) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.softdevice_handler_init) refers to softdevice_handler.o(i.softdevice_fault_handler) for softdevice_fault_handler
+    softdevice_handler.o(i.softdevice_handler_is_enabled) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.softdevice_handler_is_suspended) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.softdevice_handler_resume) refers to softdevice_handler.o(i.__sd_nvic_app_accessible_irq) for __sd_nvic_app_accessible_irq
+    softdevice_handler.o(i.softdevice_handler_resume) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    softdevice_handler.o(i.softdevice_handler_resume) refers to softdevice_handler.o(i.sd_nvic_EnableIRQ) for sd_nvic_EnableIRQ
+    softdevice_handler.o(i.softdevice_handler_resume) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.softdevice_handler_sd_disable) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.softdevice_handler_suspend) refers to softdevice_handler.o(i.__sd_nvic_app_accessible_irq) for __sd_nvic_app_accessible_irq
+    softdevice_handler.o(i.softdevice_handler_suspend) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    softdevice_handler.o(i.softdevice_handler_suspend) refers to app_util_platform.o(.bss) for nrf_nvic_state
+    softdevice_handler.o(i.softdevice_handler_suspend) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler.o(i.softdevice_sys_evt_handler_set) refers to softdevice_handler.o(.data) for .data
+    softdevice_handler_appsh.o(i.softdevice_evt_get) refers to main.o(i.app_error_handler_bare) for app_error_handler_bare
+    softdevice_handler_appsh.o(i.softdevice_evt_get) refers to softdevice_handler.o(i.intern_softdevice_events_execute) for intern_softdevice_events_execute
+    softdevice_handler_appsh.o(i.softdevice_evt_schedule) refers to app_scheduler.o(i.app_sched_event_put) for app_sched_event_put
+    softdevice_handler_appsh.o(i.softdevice_evt_schedule) refers to softdevice_handler_appsh.o(i.softdevice_evt_get) for softdevice_evt_get
+    pb_common.o(i.pb_field_iter_find) refers to pb_common.o(i.pb_field_iter_next) for pb_field_iter_next
+    pb_common.o(i.pb_field_iter_next) refers to pb_common.o(i.pb_field_iter_begin) for pb_field_iter_begin
+    pb_decode.o(i.decode_callback_field) refers to pb_decode.o(i.read_raw_value) for read_raw_value
+    pb_decode.o(i.decode_callback_field) refers to pb_decode.o(i.pb_istream_from_buffer) for pb_istream_from_buffer
+    pb_decode.o(i.decode_callback_field) refers to pb_decode.o(i.pb_skip_field) for pb_skip_field
+    pb_decode.o(i.decode_callback_field) refers to pb_decode.o(i.pb_make_string_substream) for pb_make_string_substream
+    pb_decode.o(i.decode_field) refers to pb_decode.o(i.decode_static_field) for decode_static_field
+    pb_decode.o(i.decode_field) refers to pb_decode.o(i.decode_callback_field) for decode_callback_field
+    pb_decode.o(i.decode_static_field) refers to pb_decode.o(i.pb_make_string_substream) for pb_make_string_substream
+    pb_decode.o(i.decode_static_field) refers to memseta.o(.text) for __aeabi_memclr
+    pb_decode.o(i.decode_static_field) refers to pb_decode.o(i.pb_message_set_to_defaults) for pb_message_set_to_defaults
+    pb_decode.o(i.decode_static_field) refers to pb_decode.o(.constdata) for .constdata
+    pb_decode.o(i.iter_from_extension) refers to pb_common.o(i.pb_field_iter_begin) for pb_field_iter_begin
+    pb_decode.o(i.pb_dec_bytes) refers to pb_decode.o(i.pb_decode_varint32) for pb_decode_varint32
+    pb_decode.o(i.pb_dec_bytes) refers to pb_decode.o(i.pb_read) for pb_read
+    pb_decode.o(i.pb_dec_fixed32) refers to pb_decode.o(i.pb_decode_fixed32) for pb_decode_fixed32
+    pb_decode.o(i.pb_dec_fixed64) refers to pb_decode.o(i.pb_decode_fixed64) for pb_decode_fixed64
+    pb_decode.o(i.pb_dec_string) refers to pb_decode.o(i.pb_decode_varint32) for pb_decode_varint32
+    pb_decode.o(i.pb_dec_string) refers to pb_decode.o(i.pb_read) for pb_read
+    pb_decode.o(i.pb_dec_submessage) refers to pb_decode.o(i.pb_make_string_substream) for pb_make_string_substream
+    pb_decode.o(i.pb_dec_submessage) refers to pb_decode.o(i.pb_decode_noinit) for pb_decode_noinit
+    pb_decode.o(i.pb_dec_submessage) refers to pb_decode.o(i.pb_decode) for pb_decode
+    pb_decode.o(i.pb_dec_svarint) refers to pb_decode.o(i.pb_decode_svarint) for pb_decode_svarint
+    pb_decode.o(i.pb_dec_uvarint) refers to pb_decode.o(i.pb_decode_varint) for pb_decode_varint
+    pb_decode.o(i.pb_dec_varint) refers to pb_decode.o(i.pb_decode_varint) for pb_decode_varint
+    pb_decode.o(i.pb_decode) refers to pb_decode.o(i.pb_message_set_to_defaults) for pb_message_set_to_defaults
+    pb_decode.o(i.pb_decode) refers to pb_decode.o(i.pb_decode_noinit) for pb_decode_noinit
+    pb_decode.o(i.pb_decode_delimited) refers to pb_decode.o(i.pb_make_string_substream) for pb_make_string_substream
+    pb_decode.o(i.pb_decode_delimited) refers to pb_decode.o(i.pb_decode) for pb_decode
+    pb_decode.o(i.pb_decode_fixed32) refers to pb_decode.o(i.pb_read) for pb_read
+    pb_decode.o(i.pb_decode_fixed64) refers to pb_decode.o(i.pb_read) for pb_read
+    pb_decode.o(i.pb_decode_noinit) refers to pb_common.o(i.pb_field_iter_begin) for pb_field_iter_begin
+    pb_decode.o(i.pb_decode_noinit) refers to pb_decode.o(i.pb_decode_tag) for pb_decode_tag
+    pb_decode.o(i.pb_decode_noinit) refers to pb_common.o(i.pb_field_iter_find) for pb_field_iter_find
+    pb_decode.o(i.pb_decode_noinit) refers to pb_common.o(i.pb_field_iter_next) for pb_field_iter_next
+    pb_decode.o(i.pb_decode_noinit) refers to pb_decode.o(i.iter_from_extension) for iter_from_extension
+    pb_decode.o(i.pb_decode_noinit) refers to pb_decode.o(i.decode_field) for decode_field
+    pb_decode.o(i.pb_decode_noinit) refers to pb_decode.o(i.pb_skip_field) for pb_skip_field
+    pb_decode.o(i.pb_decode_svarint) refers to pb_decode.o(i.pb_decode_varint) for pb_decode_varint
+    pb_decode.o(i.pb_decode_tag) refers to pb_decode.o(i.pb_decode_varint32) for pb_decode_varint32
+    pb_decode.o(i.pb_decode_varint) refers to pb_decode.o(i.pb_readbyte) for pb_readbyte
+    pb_decode.o(i.pb_decode_varint) refers to llshl.o(.text) for __aeabi_llsl
+    pb_decode.o(i.pb_decode_varint32) refers to pb_decode.o(i.pb_readbyte) for pb_readbyte
+    pb_decode.o(i.pb_field_set_to_default) refers to pb_decode.o(i.iter_from_extension) for iter_from_extension
+    pb_decode.o(i.pb_field_set_to_default) refers to memcpya.o(.text) for __aeabi_memcpy
+    pb_decode.o(i.pb_field_set_to_default) refers to pb_decode.o(i.pb_message_set_to_defaults) for pb_message_set_to_defaults
+    pb_decode.o(i.pb_field_set_to_default) refers to memseta.o(.text) for __aeabi_memclr
+    pb_decode.o(i.pb_istream_from_buffer) refers to pb_decode.o(i.buf_read) for buf_read
+    pb_decode.o(i.pb_make_string_substream) refers to pb_decode.o(i.pb_decode_varint32) for pb_decode_varint32
+    pb_decode.o(i.pb_message_set_to_defaults) refers to pb_common.o(i.pb_field_iter_begin) for pb_field_iter_begin
+    pb_decode.o(i.pb_message_set_to_defaults) refers to pb_decode.o(i.pb_field_set_to_default) for pb_field_set_to_default
+    pb_decode.o(i.pb_message_set_to_defaults) refers to pb_common.o(i.pb_field_iter_next) for pb_field_iter_next
+    pb_decode.o(i.pb_read) refers to pb_decode.o(i.buf_read) for buf_read
+    pb_decode.o(i.pb_skip_field) refers to pb_decode.o(i.pb_read) for pb_read
+    pb_decode.o(i.pb_skip_field) refers to pb_decode.o(i.pb_decode_varint32) for pb_decode_varint32
+    pb_decode.o(i.read_raw_value) refers to pb_decode.o(i.pb_read) for pb_read
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_varint) for pb_dec_varint
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_uvarint) for pb_dec_uvarint
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_svarint) for pb_dec_svarint
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_fixed32) for pb_dec_fixed32
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_fixed64) for pb_dec_fixed64
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_bytes) for pb_dec_bytes
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_string) for pb_dec_string
+    pb_decode.o(.constdata) refers to pb_decode.o(i.pb_dec_submessage) for pb_dec_submessage
+    arm_startup_nrf52.o(RESET) refers to arm_startup_nrf52.o(STACK) for __initial_sp
+    arm_startup_nrf52.o(RESET) refers to arm_startup_nrf52.o(.text) for Reset_Handler
+    arm_startup_nrf52.o(RESET) refers to app_timer.o(i.RTC1_IRQHandler) for RTC1_IRQHandler
+    arm_startup_nrf52.o(RESET) refers to app_timer.o(i.SWI0_EGU0_IRQHandler) for SWI0_EGU0_IRQHandler
+    arm_startup_nrf52.o(RESET) refers to softdevice_handler.o(i.SWI2_EGU2_IRQHandler) for SWI2_EGU2_IRQHandler
+    arm_startup_nrf52.o(.text) refers to system_nrf52.o(i.SystemInit) for SystemInit
+    arm_startup_nrf52.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_nrf52.o(i.SystemCoreClockUpdate) refers to system_nrf52.o(.data) for .data
+    system_nrf52.o(i.SystemInit) refers to system_nrf52.o(.data) for .data
+    micro_ecc_lib_uECC.c.o(.text.update_V) refers to micro_ecc_lib_uECC.c.o(.text.HMAC_init) for HMAC_init
+    micro_ecc_lib_uECC.c.o(.text.update_V) refers to micro_ecc_lib_uECC.c.o(.text.HMAC_update) for HMAC_update
+    micro_ecc_lib_uECC.c.o(.text.update_V) refers to micro_ecc_lib_uECC.c.o(.text.HMAC_finish) for HMAC_finish
+    micro_ecc_lib_uECC.c.o(.text.omega_mult_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.uECC_set_rng) refers to micro_ecc_lib_uECC.c.o(.bss.g_rng_function) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_get_rng) refers to micro_ecc_lib_uECC.c.o(.bss.g_rng_function) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.omega_mult_secp256k1) for omega_mult_secp256k1
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp256k1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.bits2int) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.bits2int) refers to micro_ecc_lib_uECC.c.o(.text.bcopy) for bcopy
+    micro_ecc_lib_uECC.c.o(.text.bits2int) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.bits2int) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.regularize_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.regularize_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_testBit) for uECC_vli_testBit
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp192r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp192r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp192r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp192r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp192r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp192r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp224r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp224r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp224r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp224r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp224r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp224r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp256r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.vli_modInv_update) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.vli_modInv_update) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_rshift1) for uECC_vli_rshift1
+    micro_ecc_lib_uECC.c.o(.text.omega_mult_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.omega_mult_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_rshift1) for uECC_vli_rshift1
+    micro_ecc_lib_uECC.c.o(.text.omega_mult_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.omega_mult_secp160r1) for omega_mult_secp160r1
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp160r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_mmod) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_numBits) for uECC_vli_numBits
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_mmod) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_mmod) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_mmod) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_rshift1) for uECC_vli_rshift1
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_mult) for uECC_vli_mult
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_mmod) for uECC_vli_mmod
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_mult) for uECC_vli_mult
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_square) for uECC_vli_square
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_mmod) for uECC_vli_mmod
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_square) for uECC_vli_square
+    micro_ecc_lib_uECC.c.o(.text.x_side_default) refers to memseta.o(.text) for memset
+    micro_ecc_lib_uECC.c.o(.text.x_side_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.x_side_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) for uECC_vli_modSub
+    micro_ecc_lib_uECC.c.o(.text.x_side_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.x_side_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) for uECC_vli_modAdd
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) for uECC_vli_modAdd
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) for uECC_vli_modSub
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_rshift1) for uECC_vli_rshift1
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.x_side_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.x_side_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.x_side_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) for uECC_vli_modAdd
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) for uECC_vli_modAdd
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_rshift1) for uECC_vli_rshift1
+    micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) for uECC_vli_modSub
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_addC) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) for uECC_vli_modSub
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_addC) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_addC) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_addC) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) for uECC_vli_modAdd
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_addC) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_add) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) for uECC_vli_modSub
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_add) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_add) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.XYcZ_add) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.apply_z) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.apply_z) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_rshift1) for uECC_vli_rshift1
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_add) for uECC_vli_add
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) refers to micro_ecc_lib_uECC.c.o(.text.vli_modInv_update) for vli_modInv_update
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.apply_z) for apply_z
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_testBit) for uECC_vli_testBit
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.XYcZ_addC) for XYcZ_addC
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.XYcZ_add) for XYcZ_add
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) for uECC_vli_modSub
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) for uECC_vli_modInv
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_compute_public_key) refers to micro_ecc_lib_uECC.c.o(.text.regularize_k) for regularize_k
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_compute_public_key) refers to micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) for EccPoint_mult
+    micro_ecc_lib_uECC.c.o(.text.EccPoint_compute_public_key) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_secp160r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp160r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_secp192r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp192r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_secp224r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp224r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_secp256r1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp256r1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_secp256k1) refers to micro_ecc_lib_uECC.c.o(.rodata.curve_secp256k1) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_vli_bytesToNative) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_numBits) for uECC_vli_numBits
+    micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp) for uECC_vli_cmp
+    micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) refers to micro_ecc_lib_uECC.c.o(.bss.g_rng_function) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp) for uECC_vli_cmp
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.regularize_k) for regularize_k
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) for EccPoint_mult
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) for uECC_generate_random_int
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult) for uECC_vli_modMult
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) for uECC_vli_modInv
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.bcopy) for bcopy
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.bits2int) for bits2int
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modAdd) for uECC_vli_modAdd
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_numBits) for uECC_vli_numBits
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) refers to micro_ecc_lib_uECC.c.o(.bss.g_rng_function) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_make_key) refers to micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) for uECC_generate_random_int
+    micro_ecc_lib_uECC.c.o(.text.uECC_make_key) refers to micro_ecc_lib_uECC.c.o(.text.EccPoint_compute_public_key) for EccPoint_compute_public_key
+    micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret) refers to micro_ecc_lib_uECC.c.o(.text.bcopy) for bcopy
+    micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret) refers to micro_ecc_lib_uECC.c.o(.text.regularize_k) for regularize_k
+    micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret) refers to micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) for uECC_generate_random_int
+    micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret) refers to micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) for EccPoint_mult
+    micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret) refers to micro_ecc_lib_uECC.c.o(.bss.g_rng_function) for [Anonymous Symbol]
+    micro_ecc_lib_uECC.c.o(.text.uECC_valid_point) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_valid_point) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.uECC_valid_point) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare_fast) for uECC_vli_modSquare_fast
+    micro_ecc_lib_uECC.c.o(.text.uECC_valid_point) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_equal) for uECC_vli_equal
+    micro_ecc_lib_uECC.c.o(.text.uECC_valid_public_key) refers to micro_ecc_lib_uECC.c.o(.text.uECC_valid_point) for uECC_valid_point
+    micro_ecc_lib_uECC.c.o(.text.uECC_compute_public_key) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_compute_public_key) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp) for uECC_vli_cmp
+    micro_ecc_lib_uECC.c.o(.text.uECC_compute_public_key) refers to micro_ecc_lib_uECC.c.o(.text.EccPoint_compute_public_key) for EccPoint_compute_public_key
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign) refers to micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int) for uECC_generate_random_int
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign) refers to micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) for uECC_sign_with_k
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_deterministic) refers to micro_ecc_lib_uECC.c.o(.text.HMAC_init) for HMAC_init
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_deterministic) refers to micro_ecc_lib_uECC.c.o(.text.HMAC_update) for HMAC_update
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_deterministic) refers to micro_ecc_lib_uECC.c.o(.text.HMAC_finish) for HMAC_finish
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_deterministic) refers to micro_ecc_lib_uECC.c.o(.text.update_V) for update_V
+    micro_ecc_lib_uECC.c.o(.text.uECC_sign_deterministic) refers to micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k) for uECC_sign_with_k
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.bcopy) for bcopy
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_isZero) for uECC_vli_isZero
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp_unsafe) for uECC_vli_cmp_unsafe
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modInv) for uECC_vli_modInv
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.bits2int) for bits2int
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult) for uECC_vli_modMult
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_set) for uECC_vli_set
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSub) for uECC_vli_modSub
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.XYcZ_add) for XYcZ_add
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.apply_z) for apply_z
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_numBits) for uECC_vli_numBits
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_testBit) for uECC_vli_testBit
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_clear) for uECC_vli_clear
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_modMult_fast) for uECC_vli_modMult_fast
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_sub) for uECC_vli_sub
+    micro_ecc_lib_uECC.c.o(.text.uECC_verify) refers to micro_ecc_lib_uECC.c.o(.text.uECC_vli_equal) for uECC_vli_equal
+    micro_ecc_lib_uECC.c.o(.text.uECC_point_mult) refers to micro_ecc_lib_uECC.c.o(.text.regularize_k) for regularize_k
+    micro_ecc_lib_uECC.c.o(.text.uECC_point_mult) refers to micro_ecc_lib_uECC.c.o(.text.EccPoint_mult) for EccPoint_mult
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp192r1) refers to micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) for double_jacobian_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp192r1) refers to micro_ecc_lib_uECC.c.o(.text.x_side_default) for x_side_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp192r1) refers to micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp192r1) for vli_mmod_fast_secp192r1
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1) for double_jacobian_secp256k1
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.x_side_secp256k1) for x_side_secp256k1
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp256k1) refers to micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1) for vli_mmod_fast_secp256k1
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp256r1) refers to micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) for double_jacobian_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp256r1) refers to micro_ecc_lib_uECC.c.o(.text.x_side_default) for x_side_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp256r1) refers to micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256r1) for vli_mmod_fast_secp256r1
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) for double_jacobian_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.x_side_default) for x_side_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp160r1) refers to micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1) for vli_mmod_fast_secp160r1
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp224r1) refers to micro_ecc_lib_uECC.c.o(.text.double_jacobian_default) for double_jacobian_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp224r1) refers to micro_ecc_lib_uECC.c.o(.text.x_side_default) for x_side_default
+    micro_ecc_lib_uECC.c.o(.rodata.curve_secp224r1) refers to micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp224r1) for vli_mmod_fast_secp224r1
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to arm_startup_nrf52.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to arm_startup_nrf52.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(i.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(i.main) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing dfu_req_handling.o(.rev16_text), (4 bytes).
+    Removing dfu_req_handling.o(.revsh_text), (4 bytes).
+    Removing dfu_req_handling.o(.rrx_text), (6 bytes).
+    Removing dfu_req_handling.o(.data), (1 bytes).
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing main.o(.rrx_text), (6 bytes).
+    Removing ble_advdata.o(.rev16_text), (4 bytes).
+    Removing ble_advdata.o(.revsh_text), (4 bytes).
+    Removing ble_advdata.o(.rrx_text), (6 bytes).
+    Removing ble_conn_params.o(.rev16_text), (4 bytes).
+    Removing ble_conn_params.o(.revsh_text), (4 bytes).
+    Removing ble_conn_params.o(.rrx_text), (6 bytes).
+    Removing ble_conn_params.o(i.ble_conn_params_change_conn_params), (76 bytes).
+    Removing ble_srv_common.o(.rev16_text), (4 bytes).
+    Removing ble_srv_common.o(.revsh_text), (4 bytes).
+    Removing ble_srv_common.o(.rrx_text), (6 bytes).
+    Removing ble_srv_common.o(i.ble_srv_ascii_to_utf8), (18 bytes).
+    Removing ble_srv_common.o(i.ble_srv_is_indication_enabled), (8 bytes).
+    Removing ble_srv_common.o(i.ble_srv_report_ref_encode), (12 bytes).
+    Removing ble_srv_common.o(i.characteristic_add), (400 bytes).
+    Removing ble_srv_common.o(i.descriptor_add), (170 bytes).
+    Removing ble_srv_common.o(i.set_security_req), (48 bytes).
+    Removing nrf_ble_dfu.o(.rev16_text), (4 bytes).
+    Removing nrf_ble_dfu.o(.revsh_text), (4 bytes).
+    Removing nrf_ble_dfu.o(.rrx_text), (6 bytes).
+    Removing nrf_bootloader.o(.rev16_text), (4 bytes).
+    Removing nrf_bootloader.o(.revsh_text), (4 bytes).
+    Removing nrf_bootloader.o(.rrx_text), (6 bytes).
+    Removing nrf_bootloader.o(i.nrf_dfu_init), (4 bytes).
+    Removing nrf_bootloader.o(i.nrf_dfu_init_user), (4 bytes).
+    Removing nrf_bootloader_app_start.o(.rev16_text), (4 bytes).
+    Removing nrf_bootloader_app_start.o(.revsh_text), (4 bytes).
+    Removing nrf_bootloader_app_start.o(.rrx_text), (6 bytes).
+    Removing nrf_bootloader_info.o(.rev16_text), (4 bytes).
+    Removing nrf_bootloader_info.o(.revsh_text), (4 bytes).
+    Removing nrf_bootloader_info.o(.rrx_text), (6 bytes).
+    Removing nrf_dfu.o(.rev16_text), (4 bytes).
+    Removing nrf_dfu.o(.revsh_text), (4 bytes).
+    Removing nrf_dfu.o(.rrx_text), (6 bytes).
+    Removing nrf_dfu_flash.o(.rev16_text), (4 bytes).
+    Removing nrf_dfu_flash.o(.revsh_text), (4 bytes).
+    Removing nrf_dfu_flash.o(.rrx_text), (6 bytes).
+    Removing nrf_dfu_flash.o(i.nrf_dfu_flash_error_clear), (16 bytes).
+    Removing nrf_dfu_flash.o(i.nrf_dfu_flash_wait), (36 bytes).
+    Removing nrf_dfu_mbr.o(.rev16_text), (4 bytes).
+    Removing nrf_dfu_mbr.o(.revsh_text), (4 bytes).
+    Removing nrf_dfu_mbr.o(.rrx_text), (6 bytes).
+    Removing nrf_dfu_mbr.o(i.nrf_dfu_mbr_vector_table_set), (32 bytes).
+    Removing nrf_dfu_settings.o(.rev16_text), (4 bytes).
+    Removing nrf_dfu_settings.o(.revsh_text), (4 bytes).
+    Removing nrf_dfu_settings.o(.rrx_text), (6 bytes).
+    Removing nrf_dfu_transport.o(.rev16_text), (4 bytes).
+    Removing nrf_dfu_transport.o(.revsh_text), (4 bytes).
+    Removing nrf_dfu_transport.o(.rrx_text), (6 bytes).
+    Removing nrf_dfu_utils.o(.rev16_text), (4 bytes).
+    Removing nrf_dfu_utils.o(.revsh_text), (4 bytes).
+    Removing nrf_dfu_utils.o(.rrx_text), (6 bytes).
+    Removing nrf_drv_common.o(.rev16_text), (4 bytes).
+    Removing nrf_drv_common.o(.revsh_text), (4 bytes).
+    Removing nrf_drv_common.o(.rrx_text), (6 bytes).
+    Removing nrf_drv_common.o(i.nrf_drv_common_irq_enable), (56 bytes).
+    Removing nrf_drv_rng.o(.rev16_text), (4 bytes).
+    Removing nrf_drv_rng.o(.revsh_text), (4 bytes).
+    Removing nrf_drv_rng.o(.rrx_text), (6 bytes).
+    Removing nrf_drv_rng.o(i.nrf_drv_rng_block_rand), (58 bytes).
+    Removing nrf_drv_rng.o(i.nrf_drv_rng_bytes_available), (4 bytes).
+    Removing nrf_drv_rng.o(i.nrf_drv_rng_init), (36 bytes).
+    Removing nrf_drv_rng.o(i.nrf_drv_rng_pool_capacity), (4 bytes).
+    Removing nrf_drv_rng.o(i.nrf_drv_rng_rand), (4 bytes).
+    Removing nrf_drv_rng.o(i.nrf_drv_rng_uninit), (12 bytes).
+    Removing nrf_drv_rng.o(.data), (1 bytes).
+    Removing nrf_nvmc.o(.rev16_text), (4 bytes).
+    Removing nrf_nvmc.o(.revsh_text), (4 bytes).
+    Removing nrf_nvmc.o(.rrx_text), (6 bytes).
+    Removing nrf_nvmc.o(i.nrf_nvmc_write_byte), (60 bytes).
+    Removing nrf_nvmc.o(i.nrf_nvmc_write_bytes), (28 bytes).
+    Removing nrf_nvmc.o(i.nrf_nvmc_write_word), (44 bytes).
+    Removing app_error_weak.o(.rev16_text), (4 bytes).
+    Removing app_error_weak.o(.revsh_text), (4 bytes).
+    Removing app_error_weak.o(.rrx_text), (6 bytes).
+    Removing app_error_weak.o(i.app_error_fault_handler), (36 bytes).
+    Removing app_fifo.o(.rev16_text), (4 bytes).
+    Removing app_fifo.o(.revsh_text), (4 bytes).
+    Removing app_fifo.o(.rrx_text), (6 bytes).
+    Removing app_fifo.o(i.app_fifo_flush), (8 bytes).
+    Removing app_fifo.o(i.app_fifo_get), (22 bytes).
+    Removing app_fifo.o(i.app_fifo_init), (32 bytes).
+    Removing app_fifo.o(i.app_fifo_peek), (34 bytes).
+    Removing app_fifo.o(i.app_fifo_put), (26 bytes).
+    Removing app_fifo.o(i.app_fifo_read), (74 bytes).
+    Removing app_fifo.o(i.app_fifo_write), (82 bytes).
+    Removing app_fifo.o(i.fifo_get), (20 bytes).
+    Removing app_fifo.o(i.fifo_put), (18 bytes).
+    Removing app_scheduler.o(.rev16_text), (4 bytes).
+    Removing app_scheduler.o(.revsh_text), (4 bytes).
+    Removing app_scheduler.o(.rrx_text), (6 bytes).
+    Removing app_scheduler.o(i.app_sched_queue_space_get), (36 bytes).
+    Removing app_timer.o(.rev16_text), (4 bytes).
+    Removing app_timer.o(.revsh_text), (4 bytes).
+    Removing app_timer.o(.rrx_text), (6 bytes).
+    Removing app_timer.o(i.app_timer_cnt_diff_compute), (12 bytes).
+    Removing app_timer.o(i.app_timer_cnt_get), (12 bytes).
+    Removing app_timer.o(i.app_timer_stop_all), (24 bytes).
+    Removing app_timer_appsh.o(.rev16_text), (4 bytes).
+    Removing app_timer_appsh.o(.revsh_text), (4 bytes).
+    Removing app_timer_appsh.o(.rrx_text), (6 bytes).
+    Removing app_util_platform.o(.rev16_text), (4 bytes).
+    Removing app_util_platform.o(.revsh_text), (4 bytes).
+    Removing app_util_platform.o(.rrx_text), (6 bytes).
+    Removing app_util_platform.o(i.app_util_disable_irq), (16 bytes).
+    Removing app_util_platform.o(i.app_util_enable_irq), (20 bytes).
+    Removing app_util_platform.o(.data), (4 bytes).
+    Removing ecc.o(.rev16_text), (4 bytes).
+    Removing ecc.o(.revsh_text), (4 bytes).
+    Removing ecc.o(.rrx_text), (6 bytes).
+    Removing ecc.o(i.ecc_init), (16 bytes).
+    Removing ecc.o(i.ecc_p256_keypair_gen), (56 bytes).
+    Removing ecc.o(i.ecc_p256_public_key_compute), (56 bytes).
+    Removing ecc.o(i.ecc_p256_shared_secret_compute), (70 bytes).
+    Removing ecc.o(i.ecc_p256_sign), (74 bytes).
+    Removing ecc.o(i.ecc_rng), (16 bytes).
+    Removing fstorage.o(.rev16_text), (4 bytes).
+    Removing fstorage.o(.revsh_text), (4 bytes).
+    Removing fstorage.o(.rrx_text), (6 bytes).
+    Removing fstorage.o(i.fs_init), (176 bytes).
+    Removing fstorage.o(i.fs_queued_op_count_get), (20 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_close), (4 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_open), (40 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_rx_consume), (112 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_rx_data_size_set), (36 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_rx_extract), (72 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_rx_produce), (84 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_tx_alloc), (36 bytes).
+    Removing hci_mem_pool.o(i.hci_mem_pool_tx_free), (12 bytes).
+    Removing hci_mem_pool.o(.bss), (3044 bytes).
+    Removing hci_mem_pool.o(.data), (1 bytes).
+    Removing nrf_assert.o(.rev16_text), (4 bytes).
+    Removing nrf_assert.o(.revsh_text), (4 bytes).
+    Removing nrf_assert.o(.rrx_text), (6 bytes).
+    Removing nrf_assert.o(i.assert_nrf_callback), (22 bytes).
+    Removing nrf_crypto.o(.rev16_text), (4 bytes).
+    Removing nrf_crypto.o(.revsh_text), (4 bytes).
+    Removing nrf_crypto.o(.rrx_text), (6 bytes).
+    Removing nrf_crypto.o(i.nrf_crypto_init), (12 bytes).
+    Removing nrf_crypto.o(i.nrf_crypto_public_key_compute), (34 bytes).
+    Removing nrf_crypto.o(i.nrf_crypto_shared_secret_compute), (50 bytes).
+    Removing nrf_crypto.o(i.nrf_crypto_sign), (46 bytes).
+    Removing sha256.o(.rev16_text), (4 bytes).
+    Removing sha256.o(.revsh_text), (4 bytes).
+    Removing sha256.o(.rrx_text), (6 bytes).
+    Removing softdevice_handler.o(.rev16_text), (4 bytes).
+    Removing softdevice_handler.o(.revsh_text), (4 bytes).
+    Removing softdevice_handler.o(.rrx_text), (6 bytes).
+    Removing softdevice_handler.o(i.sd_check_ram_start), (16 bytes).
+    Removing softdevice_handler.o(i.softdevice_handler_is_enabled), (12 bytes).
+    Removing softdevice_handler.o(i.softdevice_handler_is_suspended), (12 bytes).
+    Removing softdevice_handler.o(i.softdevice_handler_resume), (68 bytes).
+    Removing softdevice_handler.o(i.softdevice_handler_sd_disable), (20 bytes).
+    Removing softdevice_handler.o(i.softdevice_handler_suspend), (64 bytes).
+    Removing softdevice_handler_appsh.o(.rev16_text), (4 bytes).
+    Removing softdevice_handler_appsh.o(.revsh_text), (4 bytes).
+    Removing softdevice_handler_appsh.o(.rrx_text), (6 bytes).
+    Removing pb_decode.o(i.pb_close_string_substream), (6 bytes).
+    Removing pb_decode.o(i.pb_decode_delimited), (36 bytes).
+    Removing arm_startup_nrf52.o(HEAP), (0 bytes).
+    Removing system_nrf52.o(.rev16_text), (4 bytes).
+    Removing system_nrf52.o(.revsh_text), (4 bytes).
+    Removing system_nrf52.o(.rrx_text), (6 bytes).
+    Removing system_nrf52.o(i.SystemCoreClockUpdate), (16 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text), (0 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.data), (0 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.bss), (0 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.HMAC_init), (70 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.HMAC_update), (4 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.HMAC_finish), (98 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.update_V), (36 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.omega_mult_secp256k1), (58 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_set_rng), (12 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_get_rng), (12 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_private_key_size), (14 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_public_key_size), (8 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp256k1), (132 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.regularize_k), (88 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp192r1), (144 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp224r1), (216 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_vli_cmp), (50 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.omega_mult_secp160r1), (68 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.vli_mmod_fast_secp160r1), (132 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_vli_modSquare), (34 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.x_side_secp256k1), (46 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.double_jacobian_secp256k1), (268 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.XYcZ_addC), (280 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.EccPoint_mult), (422 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.EccPoint_compute_public_key), (84 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_secp160r1), (8 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_secp192r1), (8 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_secp224r1), (8 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_secp256k1), (8 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_vli_nativeToBytes), (40 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_vli_bytesToNative), (66 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_generate_random_int), (120 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_sign_with_k), (364 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_make_key), (70 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_shared_secret), (164 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_valid_point), (108 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_valid_public_key), (4 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_compute_public_key), (68 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_sign), (86 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_sign_deterministic), (404 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_num_words), (6 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_num_bytes), (6 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_num_bits), (8 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_num_n_words), (14 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_num_n_bytes), (14 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_num_n_bits), (6 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_p), (4 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_n), (4 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_G), (4 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_curve_b), (4 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_vli_mmod_fast), (6 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.text.uECC_point_mult), (64 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.rodata.curve_secp192r1), (176 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.rodata.curve_secp256k1), (176 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.rodata.curve_secp160r1), (176 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.rodata.curve_secp224r1), (176 bytes).
+    Removing micro_ecc_lib_uECC.c.o(.bss.g_rng_function), (4 bytes).
+
+227 unused section(s) (total 11045 bytes) removed from the image.
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000000
+
+  Load Region LR_IROM1 (Base: 0x00078000, Size: 0x000058d4, Max: 0x00006000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00078000, Size: 0x00005828, Max: 0x00006000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00078000   0x00000400   Data   RO         2532    RESET               arm_startup_nrf52.o
+    0x00078400   0x00000000   Code   RO         2682  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x00078400   0x00000004   Code   RO         2699    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x00078404   0x00000004   Code   RO         2702    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x00078408   0x00000000   Code   RO         2704    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x00078408   0x00000000   Code   RO         2706    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x00078408   0x00000008   Code   RO         2707    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x00078410   0x00000000   Code   RO         2709    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x00078410   0x00000000   Code   RO         2711    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x00078410   0x00000004   Code   RO         2700    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x00078414   0x00000034   Code   RO          882    .emb_text           nrf_bootloader_app_start.o
+    0x00078448   0x00000024   Code   RO         2533    .text               arm_startup_nrf52.o
+    0x0007846c   0x0000001e   Code   RO         2685    .text               mc_w.l(llshl.o)
+    0x0007848a   0x00000024   Code   RO         2687    .text               mc_w.l(memcpya.o)
+    0x000784ae   0x00000024   Code   RO         2691    .text               mc_w.l(memseta.o)
+    0x000784d2   0x0000001a   Code   RO         2695    .text               mc_w.l(memcmp.o)
+    0x000784ec   0x00000024   Code   RO         2713    .text               mc_w.l(init.o)
+    0x00078510   0x000000ca   Code   RO         2620    .text.XYcZ_add      micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x000785da   0x0000003e   Code   RO         2621    .text.apply_z       micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078618   0x00000014   Code   RO         2576    .text.bcopy         micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x0007862c   0x00000086   Code   RO         2593    .text.bits2int      micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x000786b2   0x00000156   Code   RO         2616    .text.double_jacobian_default  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078808   0x00000008   Code   RO         2628    .text.uECC_secp256r1  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078810   0x000002c4   Code   RO         2641    .text.uECC_verify   micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078ad4   0x0000000c   PAD
+    0x00078ae0   0x0000005c   Code   RO         2582    .text.uECC_vli_add  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078b3c   0x00000018   Code   RO         2591    .text.uECC_vli_clear  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078b54   0x00000028   Code   RO         2577    .text.uECC_vli_cmp_unsafe  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078b7c   0x00000028   Code   RO         2602    .text.uECC_vli_equal  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078ba4   0x0000001e   Code   RO         2594    .text.uECC_vli_isZero  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078bc2   0x00000002   PAD
+    0x00078bc4   0x00000144   Code   RO         2610    .text.uECC_vli_mmod  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078d08   0x00000032   Code   RO         2608    .text.uECC_vli_modAdd  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078d3a   0x0000010e   Code   RO         2622    .text.uECC_vli_modInv  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078e48   0x00000024   Code   RO         2611    .text.uECC_vli_modMult  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078e6c   0x00000020   Code   RO         2612    .text.uECC_vli_modMult_fast  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078e8c   0x00000020   Code   RO         2614    .text.uECC_vli_modSquare_fast  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078eac   0x00000024   Code   RO         2609    .text.uECC_vli_modSub  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00078ed0   0x00000312   Code   RO         2585    .text.uECC_vli_mult  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x000791e2   0x0000003c   Code   RO         2597    .text.uECC_vli_numBits  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x0007921e   0x0000001a   Code   RO         2604    .text.uECC_vli_rshift1  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00079238   0x0000001a   Code   RO         2598    .text.uECC_vli_set  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00079252   0x0000028c   Code   RO         2586    .text.uECC_vli_square  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x000794de   0x00000002   PAD
+    0x000794e0   0x00000060   Code   RO         2584    .text.uECC_vli_sub  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00079540   0x00000014   Code   RO         2595    .text.uECC_vli_testBit  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00079554   0x000001b0   Code   RO         2601    .text.vli_mmod_fast_secp256r1  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00079704   0x00000038   Code   RO         2605    .text.vli_modInv_update  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x0007973c   0x0000005a   Code   RO         2615    .text.x_side_default  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x00079796   0x00000016   Code   RO         1571    i.NVIC_ClearPendingIRQ  app_timer.o
+    0x000797ac   0x00000016   Code   RO         1572    i.NVIC_EnableIRQ    app_timer.o
+    0x000797c2   0x00000016   Code   RO         1573    i.NVIC_SetPendingIRQ  app_timer.o
+    0x000797d8   0x00000020   Code   RO         1574    i.NVIC_SetPriority  app_timer.o
+    0x000797f8   0x00000024   Code   RO          325    i.NVIC_SystemReset  main.o
+    0x0007981c   0x00000024   Code   RO         1575    i.RTC1_IRQHandler   app_timer.o
+    0x00079840   0x00000004   Code   RO         1576    i.SWI0_EGU0_IRQHandler  app_timer.o
+    0x00079844   0x00000024   Code   RO         2177    i.SWI2_EGU2_IRQHandler  softdevice_handler.o
+    0x00079868   0x0000029c   Code   RO         2541    i.SystemInit        system_nrf52.o
+    0x00079b04   0x00000024   Code   RO         2178    i.__sd_nvic_app_accessible_irq  softdevice_handler.o
+    0x00079b28   0x00000182   Code   RO          411    i.adv_data_encode   ble_advdata.o
+    0x00079caa   0x00000002   PAD
+    0x00079cac   0x00000090   Code   RO          672    i.advertising_start  nrf_ble_dfu.o
+    0x00079d3c   0x00000004   Code   RO          326    i.app_error_fault_handler  main.o
+    0x00079d40   0x00000004   Code   RO          327    i.app_error_handler_bare  main.o
+    0x00079d44   0x000000a0   Code   RO         1520    i.app_sched_event_put  app_scheduler.o
+    0x00079de4   0x00000040   Code   RO         1521    i.app_sched_execute  app_scheduler.o
+    0x00079e24   0x0000002c   Code   RO         1522    i.app_sched_init    app_scheduler.o
+    0x00079e50   0x00000024   Code   RO         1579    i.app_timer_create  app_timer.o
+    0x00079e74   0x00000018   Code   RO         1727    i.app_timer_evt_get  app_timer_appsh.o
+    0x00079e8c   0x00000018   Code   RO         1728    i.app_timer_evt_schedule  app_timer_appsh.o
+    0x00079ea4   0x00000070   Code   RO         1580    i.app_timer_init    app_timer.o
+    0x00079f14   0x00000088   Code   RO         1581    i.app_timer_start   app_timer.o
+    0x00079f9c   0x00000020   Code   RO         1582    i.app_timer_stop    app_timer.o
+    0x00079fbc   0x00000048   Code   RO         1756    i.app_util_critical_region_enter  app_util_platform.o
+    0x0007a004   0x00000034   Code   RO         1757    i.app_util_critical_region_exit  app_util_platform.o
+    0x0007a038   0x00000068   Code   RO          412    i.ble_advdata_set   ble_advdata.o
+    0x0007a0a0   0x00000058   Code   RO          532    i.ble_conn_params_init  ble_conn_params.o
+    0x0007a0f8   0x00000084   Code   RO          533    i.ble_conn_params_on_ble_evt  ble_conn_params.o
+    0x0007a17c   0x0000000c   Code   RO          534    i.ble_conn_params_stop  ble_conn_params.o
+    0x0007a188   0x00000060   Code   RO          413    i.ble_device_addr_encode  ble_advdata.o
+    0x0007a1e8   0x0000006c   Code   RO          673    i.ble_dfu_init      nrf_ble_dfu.o
+    0x0007a254   0x0000005c   Code   RO          674    i.ble_dfu_transport_close  nrf_ble_dfu.o
+    0x0007a2b0   0x000000d4   Code   RO          675    i.ble_dfu_transport_init  nrf_ble_dfu.o
+    0x0007a384   0x00000012   Code   RO          676    i.ble_evt_dispatch  nrf_ble_dfu.o
+    0x0007a396   0x00000008   Code   RO          611    i.ble_srv_is_notification_enabled  ble_srv_common.o
+    0x0007a39e   0x0000001c   Code   RO         2357    i.buf_read          pb_decode.o
+    0x0007a3ba   0x00000002   PAD
+    0x0007a3bc   0x00000020   Code   RO         1893    i.check_config      fstorage.o
+    0x0007a3dc   0x000000ac   Code   RO         1584    i.compare_reg_update  app_timer.o
+    0x0007a488   0x00000088   Code   RO          414    i.conn_int_encode   ble_advdata.o
+    0x0007a510   0x00000004   Code   RO          677    i.conn_params_error_handler  nrf_ble_dfu.o
+    0x0007a514   0x0000005c   Code   RO          535    i.conn_params_negotiation  ble_conn_params.o
+    0x0007a570   0x0000003c   Code   RO         1805    i.crc32_compute     crc32.o
+    0x0007a5ac   0x0000007e   Code   RO         2358    i.decode_callback_field  pb_decode.o
+    0x0007a62a   0x0000001a   Code   RO         2359    i.decode_field      pb_decode.o
+    0x0007a644   0x000000e0   Code   RO         2360    i.decode_static_field  pb_decode.o
+    0x0007a724   0x00000084   Code   RO          678    i.dfu_ctrl_pt_add   nrf_ble_dfu.o
+    0x0007a7a8   0x00000010   Code   RO           48    i.dfu_data_write_handler  dfu_req_handling.o
+    0x0007a7b8   0x00000054   Code   RO           49    i.dfu_decode_commmand  dfu_req_handling.o
+    0x0007a80c   0x00000190   Code   RO           50    i.dfu_handle_prevalidate  dfu_req_handling.o
+    0x0007a99c   0x00000082   Code   RO          679    i.dfu_pkt_char_add  nrf_ble_dfu.o
+    0x0007aa1e   0x00000002   PAD
+    0x0007aa20   0x00000018   Code   RO         1115    i.dfu_settings_write_callback  nrf_dfu_settings.o
+    0x0007aa38   0x0000004a   Code   RO         1825    i.ecc_p256_verify   ecc.o
+    0x0007aa82   0x00000002   PAD
+    0x0007aa84   0x00000040   Code   RO         1585    i.elapsed_ticks_acquire  app_timer.o
+    0x0007aac4   0x00000074   Code   RO         1894    i.fs_erase          fstorage.o
+    0x0007ab38   0x00000028   Code   RO          994    i.fs_evt_handler    nrf_dfu_flash.o
+    0x0007ab60   0x00000014   Code   RO         1895    i.fs_fake_init      fstorage.o
+    0x0007ab74   0x00000080   Code   RO         1898    i.fs_store          fstorage.o
+    0x0007abf4   0x00000068   Code   RO         1899    i.fs_sys_event_handler  fstorage.o
+    0x0007ac5c   0x0000006c   Code   RO          680    i.gap_params_init   nrf_ble_dfu.o
+    0x0007acc8   0x0000007c   Code   RO         2179    i.intern_softdevice_events_execute  softdevice_handler.o
+    0x0007ad44   0x0000001c   Code   RO          536    i.is_conn_params_ok  ble_conn_params.o
+    0x0007ad60   0x0000000c   Code   RO         1827    i.is_word_aligned   ecc.o
+    0x0007ad6c   0x0000002e   Code   RO         2361    i.iter_from_extension  pb_decode.o
+    0x0007ad9a   0x00000002   PAD
+    0x0007ad9c   0x000000a8   Code   RO         1586    i.list_deletions_handler  app_timer.o
+    0x0007ae44   0x000000b8   Code   RO         1587    i.list_insertions_handler  app_timer.o
+    0x0007aefc   0x0000005c   Code   RO          328    i.main              main.o
+    0x0007af58   0x00000064   Code   RO          415    i.manuf_specific_data_encode  ble_advdata.o
+    0x0007afbc   0x0000009c   Code   RO          416    i.name_encode       ble_advdata.o
+    0x0007b058   0x0000002a   Code   RO          883    i.nrf_bootloader_app_start  nrf_bootloader_app_start.o
+    0x0007b082   0x00000008   Code   RO          846    i.nrf_bootloader_init  nrf_bootloader.o
+    0x0007b08a   0x0000004c   Code   RO         2076    i.nrf_crypto_hash_compute  nrf_crypto.o
+    0x0007b0d6   0x0000002e   Code   RO         2081    i.nrf_crypto_verify  nrf_crypto.o
+    0x0007b104   0x0000008c   Code   RO           51    i.nrf_delay_us      dfu_req_handling.o
+    0x0007b190   0x0000008c   Code   RO          681    i.nrf_delay_us      nrf_ble_dfu.o
+    0x0007b21c   0x0000008c   Code   RO         1588    i.nrf_delay_us      app_timer.o
+    0x0007b2a8   0x000000ac   Code   RO         1209    i.nrf_dfu_app_continue  nrf_dfu_utils.o
+    0x0007b354   0x00000030   Code   RO         1210    i.nrf_dfu_app_is_valid  nrf_dfu_utils.o
+    0x0007b384   0x00000044   Code   RO         1211    i.nrf_dfu_bl_continue  nrf_dfu_utils.o
+    0x0007b3c8   0x0000010c   Code   RO           52    i.nrf_dfu_command_req  dfu_req_handling.o
+    0x0007b4d4   0x00000034   Code   RO         1212    i.nrf_dfu_continue  nrf_dfu_utils.o
+    0x0007b508   0x00000078   Code   RO         1213    i.nrf_dfu_continue_bank  nrf_dfu_utils.o
+    0x0007b580   0x00000264   Code   RO           53    i.nrf_dfu_data_req  dfu_req_handling.o
+    0x0007b7e4   0x00000034   Code   RO          931    i.nrf_dfu_enter_check  nrf_dfu.o
+    0x0007b818   0x0000006c   Code   RO         1214    i.nrf_dfu_find_cache  nrf_dfu_utils.o
+    0x0007b884   0x00000098   Code   RO          995    i.nrf_dfu_flash_erase  nrf_dfu_flash.o
+    0x0007b91c   0x0000002c   Code   RO          997    i.nrf_dfu_flash_init  nrf_dfu_flash.o
+    0x0007b948   0x0000008c   Code   RO          998    i.nrf_dfu_flash_store  nrf_dfu_flash.o
+    0x0007b9d4   0x00000080   Code   RO          932    i.nrf_dfu_init      nrf_dfu.o
+    0x0007ba54   0x00000018   Code   RO         1215    i.nrf_dfu_invalidate_bank  nrf_dfu_utils.o
+    0x0007ba6c   0x0000001c   Code   RO         1063    i.nrf_dfu_mbr_compare  nrf_dfu_mbr.o
+    0x0007ba88   0x00000016   Code   RO         1064    i.nrf_dfu_mbr_copy_bl  nrf_dfu_mbr.o
+    0x0007ba9e   0x00000002   PAD
+    0x0007baa0   0x00000024   Code   RO         1065    i.nrf_dfu_mbr_copy_sd  nrf_dfu_mbr.o
+    0x0007bac4   0x00000018   Code   RO         1066    i.nrf_dfu_mbr_init_sd  nrf_dfu_mbr.o
+    0x0007badc   0x00000108   Code   RO           54    i.nrf_dfu_postvalidate  dfu_req_handling.o
+    0x0007bbe4   0x00000050   Code   RO           55    i.nrf_dfu_req_handler_init  dfu_req_handling.o
+    0x0007bc34   0x00000040   Code   RO           56    i.nrf_dfu_req_handler_on_req  dfu_req_handling.o
+    0x0007bc74   0x00000080   Code   RO         1216    i.nrf_dfu_sd_continue_impl  nrf_dfu_utils.o
+    0x0007bcf4   0x00000010   Code   RO         1116    i.nrf_dfu_settings_calculate_crc  nrf_dfu_settings.o
+    0x0007bd04   0x0000004c   Code   RO         1117    i.nrf_dfu_settings_init  nrf_dfu_settings.o
+    0x0007bd50   0x0000005c   Code   RO         1118    i.nrf_dfu_settings_write  nrf_dfu_settings.o
+    0x0007bdac   0x0000002c   Code   RO         1175    i.nrf_dfu_transports_close  nrf_dfu_transport.o
+    0x0007bdd8   0x0000002c   Code   RO         1176    i.nrf_dfu_transports_init  nrf_dfu_transport.o
+    0x0007be04   0x00000004   Code   RO          933    i.nrf_dfu_wait      nrf_dfu.o
+    0x0007be08   0x00000022   Code   RO          329    i.nrf_gpio_cfg      main.o
+    0x0007be2a   0x0000000e   Code   RO          682    i.nrf_gpio_cfg_output  nrf_ble_dfu.o
+    0x0007be38   0x00000010   Code   RO          683    i.nrf_gpio_pin_set  nrf_ble_dfu.o
+    0x0007be48   0x00000030   Code   RO         1369    i.nrf_nvmc_page_erase  nrf_nvmc.o
+    0x0007be78   0x0000003c   Code   RO         1373    i.nrf_nvmc_write_words  nrf_nvmc.o
+    0x0007beb4   0x000000e8   Code   RO          684    i.on_ble_evt        nrf_ble_dfu.o
+    0x0007bf9c   0x000000f8   Code   RO          685    i.on_ctrl_pt_write  nrf_ble_dfu.o
+    0x0007c094   0x00000028   Code   RO           57    i.on_dfu_complete   dfu_req_handling.o
+    0x0007c0bc   0x00000054   Code   RO         1900    i.on_operation_success  fstorage.o
+    0x0007c110   0x00000094   Code   RO          686    i.on_rw_authorize_req  nrf_ble_dfu.o
+    0x0007c1a4   0x00000060   Code   RO          687    i.on_write          nrf_ble_dfu.o
+    0x0007c204   0x00000040   Code   RO         2363    i.pb_dec_bytes      pb_decode.o
+    0x0007c244   0x00000006   Code   RO         2364    i.pb_dec_fixed32    pb_decode.o
+    0x0007c24a   0x00000006   Code   RO         2365    i.pb_dec_fixed64    pb_decode.o
+    0x0007c250   0x0000003e   Code   RO         2366    i.pb_dec_string     pb_decode.o
+    0x0007c28e   0x00000040   Code   RO         2367    i.pb_dec_submessage  pb_decode.o
+    0x0007c2ce   0x00000058   Code   RO         2368    i.pb_dec_svarint    pb_decode.o
+    0x0007c326   0x00000058   Code   RO         2369    i.pb_dec_uvarint    pb_decode.o
+    0x0007c37e   0x0000005a   Code   RO         2370    i.pb_dec_varint     pb_decode.o
+    0x0007c3d8   0x0000001e   Code   RO         2371    i.pb_decode         pb_decode.o
+    0x0007c3f6   0x00000020   Code   RO         2373    i.pb_decode_fixed32  pb_decode.o
+    0x0007c416   0x0000005c   Code   RO         2374    i.pb_decode_fixed64  pb_decode.o
+    0x0007c472   0x00000002   PAD
+    0x0007c474   0x00000186   Code   RO         2375    i.pb_decode_noinit  pb_decode.o
+    0x0007c5fa   0x0000003a   Code   RO         2376    i.pb_decode_svarint  pb_decode.o
+    0x0007c634   0x00000042   Code   RO         2377    i.pb_decode_tag     pb_decode.o
+    0x0007c676   0x0000004a   Code   RO         2378    i.pb_decode_varint  pb_decode.o
+    0x0007c6c0   0x0000004c   Code   RO         2379    i.pb_decode_varint32  pb_decode.o
+    0x0007c70c   0x00000024   Code   RO           58    i.pb_decoding_callback  dfu_req_handling.o
+    0x0007c730   0x00000022   Code   RO         2330    i.pb_field_iter_begin  pb_common.o
+    0x0007c752   0x0000002e   Code   RO         2331    i.pb_field_iter_find  pb_common.o
+    0x0007c780   0x00000080   Code   RO         2332    i.pb_field_iter_next  pb_common.o
+    0x0007c800   0x000000a4   Code   RO         2380    i.pb_field_set_to_default  pb_decode.o
+    0x0007c8a4   0x00000014   Code   RO         2381    i.pb_istream_from_buffer  pb_decode.o
+    0x0007c8b8   0x00000036   Code   RO         2382    i.pb_make_string_substream  pb_decode.o
+    0x0007c8ee   0x00000026   Code   RO         2383    i.pb_message_set_to_defaults  pb_decode.o
+    0x0007c914   0x00000058   Code   RO         2384    i.pb_read           pb_decode.o
+    0x0007c96c   0x00000020   Code   RO         2385    i.pb_readbyte       pb_decode.o
+    0x0007c98c   0x0000005a   Code   RO         2386    i.pb_skip_field     pb_decode.o
+    0x0007c9e6   0x00000002   PAD
+    0x0007c9e8   0x0000002c   Code   RO         1901    i.queue_advance     fstorage.o
+    0x0007ca14   0x00000038   Code   RO         1902    i.queue_get_next_free  fstorage.o
+    0x0007ca4c   0x00000070   Code   RO         1903    i.queue_process     fstorage.o
+    0x0007cabc   0x0000001c   Code   RO         1904    i.queue_start       fstorage.o
+    0x0007cad8   0x00000062   Code   RO         2387    i.read_raw_value    pb_decode.o
+    0x0007cb3a   0x00000002   PAD
+    0x0007cb3c   0x00000060   Code   RO          688    i.response_crc_cmd_send  nrf_ble_dfu.o
+    0x0007cb9c   0x0000006c   Code   RO          689    i.response_select_object_cmd_send  nrf_ble_dfu.o
+    0x0007cc08   0x00000040   Code   RO          690    i.response_send     nrf_ble_dfu.o
+    0x0007cc48   0x0000003c   Code   RO         1589    i.rtc1_stop         app_timer.o
+    0x0007cc84   0x00000074   Code   RO         2181    i.sd_nvic_EnableIRQ  softdevice_handler.o
+    0x0007ccf8   0x0000004c   Code   RO         1905    i.send_event        fstorage.o
+    0x0007cd44   0x00000028   Code   RO          691    i.send_hvx          nrf_ble_dfu.o
+    0x0007cd6c   0x00000088   Code   RO          417    i.service_data_encode  ble_advdata.o
+    0x0007cdf4   0x00000110   Code   RO         2133    i.sha256_final      sha256.o
+    0x0007cf04   0x00000054   Code   RO         2134    i.sha256_init       sha256.o
+    0x0007cf58   0x0000012c   Code   RO         2135    i.sha256_transform  sha256.o
+    0x0007d084   0x00000054   Code   RO         2136    i.sha256_update     sha256.o
+    0x0007d0d8   0x00000014   Code   RO         2182    i.softdevice_ble_evt_handler_set  softdevice_handler.o
+    0x0007d0ec   0x00000014   Code   RO         2183    i.softdevice_enable  softdevice_handler.o
+    0x0007d100   0x00000026   Code   RO         2184    i.softdevice_enable_get_default_config  softdevice_handler.o
+    0x0007d126   0x00000012   Code   RO         2303    i.softdevice_evt_get  softdevice_handler_appsh.o
+    0x0007d138   0x00000010   Code   RO         2304    i.softdevice_evt_schedule  softdevice_handler_appsh.o
+    0x0007d148   0x00000004   Code   RO         2185    i.softdevice_fault_handler  softdevice_handler.o
+    0x0007d14c   0x00000034   Code   RO         2186    i.softdevice_handler_init  softdevice_handler.o
+    0x0007d180   0x00000014   Code   RO         2192    i.softdevice_sys_evt_handler_set  softdevice_handler.o
+    0x0007d194   0x0000008c   Code   RO         1590    i.timer_list_handler  app_timer.o
+    0x0007d220   0x0000003c   Code   RO         1591    i.timer_list_insert  app_timer.o
+    0x0007d25c   0x00000048   Code   RO         1592    i.timer_stop_op_schedule  app_timer.o
+    0x0007d2a4   0x00000084   Code   RO         1593    i.timer_timeouts_check  app_timer.o
+    0x0007d328   0x0000000a   Code   RO          418    i.uint16_encode     ble_advdata.o
+    0x0007d332   0x00000012   Code   RO          692    i.uint32_encode     nrf_ble_dfu.o
+    0x0007d344   0x00000060   Code   RO          537    i.update_timeout_handler  ble_conn_params.o
+    0x0007d3a4   0x00000030   Code   RO         1594    i.user_op_alloc     app_timer.o
+    0x0007d3d4   0x00000030   Code   RO          419    i.uuid_list_encode  ble_advdata.o
+    0x0007d404   0x0000009e   Code   RO          420    i.uuid_list_sized_encode  ble_advdata.o
+    0x0007d4a2   0x00000001   Data   RO            1    .constdata          dfu-cc.pb.o
+    0x0007d4a3   0x00000001   PAD
+    0x0007d4a4   0x00000024   Data   RO            2    .constdata          dfu-cc.pb.o
+    0x0007d4c8   0x00000078   Data   RO            3    .constdata          dfu-cc.pb.o
+    0x0007d540   0x00000018   Data   RO            4    .constdata          dfu-cc.pb.o
+    0x0007d558   0x00000030   Data   RO            5    .constdata          dfu-cc.pb.o
+    0x0007d588   0x00000030   Data   RO            6    .constdata          dfu-cc.pb.o
+    0x0007d5b8   0x00000024   Data   RO            7    .constdata          dfu-cc.pb.o
+    0x0007d5dc   0x00000008   Data   RO           60    .constdata          dfu_req_handling.o
+    0x0007d5e4   0x00000004   Data   RO          540    .constdata          ble_conn_params.o
+    0x0007d5e8   0x00000014   Data   RO          694    .constdata          nrf_ble_dfu.o
+    0x0007d5fc   0x00000010   Data   RO         1000    .constdata          nrf_dfu_flash.o
+    0x0007d60c   0x00000040   Data   RO         1068    .constdata          nrf_dfu_mbr.o
+    0x0007d64c   0x00000100   Data   RO         2137    .constdata          sha256.o
+    0x0007d74c   0x00000024   Data   RO         2388    .constdata          pb_decode.o
+    0x0007d770   0x000000b0   Data   RO         2656    .rodata.curve_secp256r1  micro_ecc_lib_nrf52.lib(micro_ecc_lib_uECC.c.o)
+    0x0007d820   0x00000000   Data   RO         2715    Region$$Table       anon$$obj.o
+    0x0007d820   0x00000008   Data   RO          696    dfu_trans           nrf_ble_dfu.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20002c00, Size: 0x00002bf0, Max: 0x0000d380, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20002c00   0x00000024   Data   RW           61    .data               dfu_req_handling.o
+    0x20002c24   0x00000014   Data   RW          541    .data               ble_conn_params.o
+    0x20002c38   0x0000000c   Data   RW          695    .data               nrf_ble_dfu.o
+    0x20002c44   0x00000004   Data   RW         1001    .data               nrf_dfu_flash.o
+    0x20002c48   0x00000008   Data   RW         1123    .data               nrf_dfu_settings.o
+    0x20002c50   0x00000010   Data   RW         1524    .data               app_scheduler.o
+    0x20002c60   0x00000020   Data   RW         1595    .data               app_timer.o
+    0x20002c80   0x00000002   Data   RW         1907    .data               fstorage.o
+    0x20002c82   0x00000002   PAD
+    0x20002c84   0x00000014   Data   RW         2193    .data               softdevice_handler.o
+    0x20002c98   0x00000004   Data   RW         2542    .data               system_nrf52.o
+    0x20002c9c   0x00000010   Data   RW         1002    fs_data             nrf_dfu_flash.o
+    0x20002cac   0x0000059c   Zero   RW           59    .bss                dfu_req_handling.o
+    0x20003248   0x00000020   Zero   RW          538    .bss                ble_conn_params.o
+    0x20003268   0x0000001c   Zero   RW          539    .bss                ble_conn_params.o
+    0x20003284   0x00000073   Zero   RW          693    .bss                nrf_ble_dfu.o
+    0x200032f7   0x00000001   PAD
+    0x200032f8   0x000001c8   Zero   RW          934    .bss                nrf_dfu.o
+    0x200034c0   0x000002b8   Zero   RW         1122    .bss                nrf_dfu_settings.o
+    0x20003778   0x0000000c   Zero   RW         1760    .bss                app_util_platform.o
+    0x20003784   0x00000068   Zero   RW         1906    .bss                fstorage.o
+    0x200037ec   0x00000004   PAD
+    0x200037f0   0x00002000   Zero   RW         2530    STACK               arm_startup_nrf52.o
+
+
+
+  Load Region LR$$.ARM.__AT_0x0007E000 (Base: 0x0007e000, Size: 0x00000000, Max: 0x00001000, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__AT_0x0007E000 (Base: 0x0007e000, Size: 0x00000000, Max: 0x00001000, ABSOLUTE, UNINIT)
+
+    **** No section assigned to this execution region ****
+
+
+
+  Load Region LR$$.ARM.__AT_0x0007F000 (Base: 0x0007f000, Size: 0x00000000, Max: 0x00001000, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__AT_0x0007F000 (Base: 0x0007f000, Size: 0x00000000, Max: 0x00001000, ABSOLUTE, UNINIT)
+
+    **** No section assigned to this execution region ****
+
+
+
+  Load Region LR$$.ARM.__AT_0x10001014 (Base: 0x10001014, Size: 0x00000000, Max: 0x00000004, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__AT_0x10001014 (Base: 0x10001014, Size: 0x00000000, Max: 0x00000004, ABSOLUTE, UNINIT)
+
+    **** No section assigned to this execution region ****
+
+
+
+  Load Region LR$$.ARM.__AT_0x10001018 (Base: 0x10001018, Size: 0x00000000, Max: 0x00000004, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__AT_0x10001018 (Base: 0x10001018, Size: 0x00000000, Max: 0x00000004, ABSOLUTE, UNINIT)
+
+    **** No section assigned to this execution region ****
+

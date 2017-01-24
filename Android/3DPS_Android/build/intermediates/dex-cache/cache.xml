@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_b1b37791341c9faeb38bd88e9f6509fda7f0460d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.1.0_d38ba7c14b87a9c5757aa99cadda7952cbb73b84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_e7b4d324193ffca27a359735467942d88929f11f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_fc99acbb2abf2fc99253f60e270c77bedc0584cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.antfortune.freeline\runtime\0.8.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="611bdfa0266e6a0bb9865118c5206b0d992f91d9">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.antfortune.freeline-runtime-0.8.4_0780a36e1eb58da2c1cb64398b1a3341808b30c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_17b7f6cc8c1a9768671eb905a935ed233442073a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6b1cf76a0a8e86b0e3faeb7498a2c3af560525f">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2d49f9aa920ece6dd7aa378cdbd6d6bc3523db14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e3755a6930e0de9c466d04305e5e5311bb176d6">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e784e1fc4840c9443d986ef44c46aff4ddb8ccba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_bae9a6d7dac0711a2d01d67e409d9a8fc8f7315b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.weigan\loopView\0.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1f7e45c5e08edd803f98dd508d43ee08fd4be91">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.weigan-loopView-0.1.1_1f349493c458434808b87ef9659bf728c12b06b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\electronic\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_efe97c93ff539ca51a5d0caebdc20950ecc5ec30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_a5789e7769bf2639a17d57a6d46eba493ad2ad70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_ce1fa4c7073c84b04834e881d62a0693a0163b7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="99a6ea208d8dd0d8fbcf474fd08f637377a5d560">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_80321a1e8cb25eecb4c32c77cc8c58f112eee9a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.jjoe64\graphview\4.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.jjoe64-graphview-4.2.1_f6fe8447221c1b3abf89c1313575ef896b4f7850\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fade899814e79bdf6437f184ef0febfcd8a05fab">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_adb50dbc2a57581dcbbcb267fce444caa7a518e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-v13\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e006c9b6f0aaed9d8c7934b74039738390fe3468">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.1.0_416fa9644fc8449eb0c06dec3a89575f78fea3f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.1.0_2e44e4e2c3941aaa0146f4bc91df450fe5463e05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_deb4b1c0315ba9f86fef84c4083262917682759f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.jjoe64\graphview\4.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.jjoe64-graphview-4.2.1_f36f379fee7c6a33d97f0dba9a5ed137d3147778\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_935ba37d84148c99938451c294ac054683ec695c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_544c62e9e685ccdb0a33a19bc4b9e63d25849010\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-v13\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e006c9b6f0aaed9d8c7934b74039738390fe3468">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.1.0_dfbd4ec8101be5fec0fb2ff2c33fdb4d67937969\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_059fdccb4734cdb77442b9a102eef9a113b52880\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.antfortune.freeline\runtime\0.8.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="611bdfa0266e6a0bb9865118c5206b0d992f91d9">
+        <dex dex="F:\Box Sync\android\3DPS_Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.antfortune.freeline-runtime-0.8.4_4818347ed4bac5e173eb292a3ed812467b655a07\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="F:\Box Sync\Github\3DPS\Android\3DPS_Android_2\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_fbc00d1b26803876525837224d32d0f923a71aec\classes.dex" />
+    </item>
+
+</items>

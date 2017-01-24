@@ -1,0 +1,115 @@
+{
+    "android_gradle_plugin_version": "0.0.0",
+    "apk_path": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\build\\outputs\\apk\\Application-debug.apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": false
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\build\\freeline",
+    "build_directory": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\build",
+    "build_script": "gradlew.bat :Application:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "E:\\electronic\\Android\\sdk\\build-tools\\25.0.0",
+    "build_tools_version": "25.0.0",
+    "compile_sdk_directory": "E:\\electronic\\Android\\sdk\\platforms\\android-25",
+    "compile_sdk_version": "android-25",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.example.android.bluetoothlegatt",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2",
+    "freeline_gradle_plugin_version": "0.0.0",
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_112",
+    "launcher": "com.example.android.bluetoothlegatt.DeviceScanActivity",
+    "main_assets_directory": [
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\assets",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\jniLibs",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\jni",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\jni"
+    ],
+    "main_manifest_path": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "Application",
+    "main_project_name": "Application",
+    "main_r_path": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\res",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\res",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\common\\res",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\template\\res"
+    ],
+    "main_src_directory": [
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\java",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\java",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\common\\java",
+        "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\template\\java"
+    ],
+    "module_dependencies": {
+        "Application": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "Application",
+            "path": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application"
+        }
+    ],
+    "package": "com.example.android.bluetoothlegatt",
+    "product_flavor": "",
+    "project_source_sets": {
+        "Application": {
+            "main_assets_directory": [
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\assets",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\jniLibs",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\jni",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\jni"
+            ],
+            "main_manifest_path": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\res",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\res",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\common\\res",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\template\\res"
+            ],
+            "main_src_directory": [
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\debug\\java",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\main\\java",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\common\\java",
+                "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2\\Application\\src\\template\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "F:\\Box Sync\\android\\3DPS_Android\\3DPS_Android_2",
+    "sdk_directory": "E:\\electronic\\Android\\sdk",
+    "use_jdk8": false
+}

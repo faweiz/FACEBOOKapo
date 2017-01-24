@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\button_control.xml",
+        "source": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\src\\main\\res\\layout\\button_control.xml"
+    },
+    {
+        "merged": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
+        "source": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
+        "source": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\src\\main\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\gatt_services_characteristics.xml",
+        "source": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\message_detail.xml",
+        "source": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\src\\main\\res\\layout\\message_detail.xml"
+    }
+]

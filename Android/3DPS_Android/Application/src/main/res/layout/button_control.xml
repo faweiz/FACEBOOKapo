@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+// ON
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TURN ON"
+        android:id="@+id/buttonOn"
+        android:onClick="onClickOn" />
+// Data
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_data"
+        android:id="@+id/data_value" />
+// GraphView
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/graph" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.11"
+        android:orientation="vertical" >
+// List View Picker
+        <com.weigan.loopview.LoopView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/listMessage"
+            android:id="@+id/loopView"
+            app:awv_textsize="18"
+            android:layout_above="@+id/buttonStart" />
+// List View Message
+        <ListView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/buttonPause"
+            android:id="@+id/listMessage">
+        </ListView>
+// Start
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/buttonPause"
+            android:text="@string/Start_button"
+            android:id="@+id/buttonStart"
+            android:onClick="onClickStart" />
+ // Pause
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/Pause_button"
+            android:id="@+id/buttonPause"
+            android:onClick="onClickPause" />
+    </RelativeLayout>
+
+</LinearLayout>

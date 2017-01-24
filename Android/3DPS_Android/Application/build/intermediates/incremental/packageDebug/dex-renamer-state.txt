@@ -1,0 +1,7 @@
+#Fri Jan 20 21:19:05 EST 2017
+base.0=F\:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e784e1fc4840c9443d986ef44c46aff4ddb8ccba
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=F\:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_adb50dbc2a57581dcbbcb267fce444caa7a518e0\\classes.dex
+base.1=F\:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_adb50dbc2a57581dcbbcb267fce444caa7a518e0
+file.0=F\:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e784e1fc4840c9443d986ef44c46aff4ddb8ccba\\classes.dex

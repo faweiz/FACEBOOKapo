@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\gatt_services.xml",
+        "source": "F:\\Box Sync\\Github\\3DPS\\Android\\3DPS_Android_2\\Application\\src\\main\\res\\menu\\gatt_services.xml"
+    }
+]
