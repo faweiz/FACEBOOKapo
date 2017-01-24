@@ -12,10 +12,10 @@ There is 3 verison of UART_SPI https://github.com/faweiz/3DPS/tree/master/nRF5_S
 #Android
 Android Source code : https://github.com/faweiz/3DPS/tree/master/Android/3DPS_Android
 
-Scan List:
+###Scan List:
 ![scan](https://github.com/faweiz/3DPS/blob/master/Android/scan.jpg)
 
-ADC Chart
+###ADC Chart
 ![chart](https://github.com/faweiz/3DPS/blob/master/Android/chart.jpg)
 
 #Arduino
